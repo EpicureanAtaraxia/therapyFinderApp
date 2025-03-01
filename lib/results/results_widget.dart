@@ -187,7 +187,7 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                   child: Padding(
                     padding: EdgeInsets.all(10.0),
                     child: Text(
-                      '\nIf you would like to take the screens again or put in your specific diagnosises, please hit the redo button below.',
+                      '\nIf you would like to take the screens again or put in your specific diagnoses, please hit the redo button below.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Poppins',
                             fontSize: 18.0,

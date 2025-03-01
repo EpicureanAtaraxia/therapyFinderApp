@@ -59,7 +59,7 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                 Padding(
                   padding: EdgeInsets.all(10.0),
                   child: Text(
-                    'Please respond with the answer that most accurately describes how each of the statements below applies to you. For the purposes of this test, \"When I Was Young\" regers to the age of 17 or younger. ',
+                    'Please respond with the answer that most accurately describes how each of the statements below applies to you. For the purposes of this test, \"When I Was Young\" refers to the age of 17 or younger. ',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Poppins',
                           fontSize: 18.0,
