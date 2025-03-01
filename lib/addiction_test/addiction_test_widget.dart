@@ -123,7 +123,7 @@ class _AddictionTestWidgetState extends State<AddictionTestWidget> {
                   child: Padding(
                     padding: EdgeInsets.all(10.0),
                     child: Text(
-                      '\n2. Have people annoyed you by crtitizing your drinking or druge use?',
+                      '\n2. Have people annoyed you by crtitizing your drinking or drug use?',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Poppins',
                             fontSize: 16.0,
