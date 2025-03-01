@@ -42,8 +42,6 @@ class _KnowMyStuffWidgetState extends State<KnowMyStuffWidget> {
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
-
     return GestureDetector(
       onTap: () {
         FocusScope.of(context).unfocus();
@@ -140,93 +138,35 @@ class _KnowMyStuffWidgetState extends State<KnowMyStuffWidget> {
                       borderRadius: BorderRadius.circular(8.0),
                     ),
                   ),
-                  InkWell(
-                    splashColor: Colors.transparent,
-                    focusColor: Colors.transparent,
-                    hoverColor: Colors.transparent,
-                    highlightColor: Colors.transparent,
-                    onDoubleTap: () async {
+                  FFButtonWidget(
+                    onPressed: () async {
                       await actions.totalResults();
                       await actions.recommendedTherapies();
 
                       context.pushNamed(ResultsWidget.routeName);
                     },
-                    onLongPress: () async {
-                      if (_model.checkboxGroupValues
-                              ?.contains(FFAppState().D1) ==
-                          true) {
-                        FFAppState().AnxietyDiagnosis = true;
-                        safeSetState(() {});
-                      }
-                    },
-                    child: FFButtonWidget(
-                      onPressed: () async {
-                        if (_model.checkboxGroupValues
-                                ?.contains(FFAppState().D1) ==
-                            true) {
-                          FFAppState().AnxietyDiagnosis = true;
-                          safeSetState(() {});
-                        }
-                        if (_model.checkboxGroupValues
-                                ?.contains(FFAppState().D2) ==
-                            true) {
-                          FFAppState().DepressionDiagnosis = true;
-                          safeSetState(() {});
-                        }
-                        if (_model.checkboxGroupValues
-                                ?.contains(FFAppState().D3) ==
-                            true) {
-                          FFAppState().OCDDiagnosis = true;
-                          safeSetState(() {});
-                        }
-                        if (_model.checkboxGroupValues
-                                ?.contains(FFAppState().D4) ==
-                            true) {
-                          FFAppState().PTSDDiagnosis = true;
-                          safeSetState(() {});
-                        }
-                        if (_model.checkboxGroupValues
-                                ?.contains(FFAppState().D5) ==
-                            true) {
-                          FFAppState().BPDDiagnosis = true;
-                          safeSetState(() {});
-                        }
-                        if (_model.checkboxGroupValues
-                                ?.contains(FFAppState().D6) ==
-                            true) {
-                          FFAppState().AddictionDiagnosis = true;
-                          safeSetState(() {});
-                        }
-                        if (_model.checkboxGroupValues
-                                ?.contains(FFAppState().D7) ==
-                            true) {
-                          FFAppState().AutismDiagnosis = true;
-                          safeSetState(() {});
-                        }
-                      },
-                      text: 'Submit',
-                      options: FFButtonOptions(
-                        width: 150.0,
-                        height: 55.0,
-                        padding: EdgeInsetsDirectional.fromSTEB(
-                            24.0, 0.0, 24.0, 0.0),
-                        iconPadding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        color: Color(0xFF152514),
-                        textStyle:
-                            FlutterFlowTheme.of(context).titleSmall.override(
-                                  fontFamily: 'Poppins',
-                                  color: Colors.white,
-                                  fontSize: 20.0,
-                                  letterSpacing: 0.0,
-                                ),
-                        elevation: 3.0,
-                        borderSide: BorderSide(
-                          color: Colors.transparent,
-                          width: 1.0,
-                        ),
-                        borderRadius: BorderRadius.circular(8.0),
+                    text: 'Submit',
+                    options: FFButtonOptions(
+                      width: 150.0,
+                      height: 55.0,
+                      padding:
+                          EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
+                      iconPadding:
+                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                      color: Color(0xFF152514),
+                      textStyle:
+                          FlutterFlowTheme.of(context).titleSmall.override(
+                                fontFamily: 'Poppins',
+                                color: Colors.white,
+                                fontSize: 20.0,
+                                letterSpacing: 0.0,
+                              ),
+                      elevation: 3.0,
+                      borderSide: BorderSide(
+                        color: Colors.transparent,
+                        width: 1.0,
                       ),
+                      borderRadius: BorderRadius.circular(8.0),
                     ),
                   ),
                 ],

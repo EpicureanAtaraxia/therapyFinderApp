@@ -88,10 +88,16 @@ class _AddictionTestWidgetState extends State<AddictionTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue1 == 'Yes') {
-                        FFAppState().insertAtIndexInAddictionValuesInt(0, 1);
+                        FFAppState().updateAddictionValuesIntAtIndex(
+                          0,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue1 == 'No') {
-                          FFAppState().insertAtIndexInAddictionValuesInt(0, 0);
+                          FFAppState().updateAddictionValuesIntAtIndex(
+                            0,
+                            (_) => 0,
+                          );
                         }
                       }
                     },
@@ -133,10 +139,16 @@ class _AddictionTestWidgetState extends State<AddictionTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue2 == 'Yes') {
-                        FFAppState().insertAtIndexInAddictionValuesInt(1, 1);
+                        FFAppState().updateAddictionValuesIntAtIndex(
+                          1,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue2 == 'No') {
-                          FFAppState().insertAtIndexInAddictionValuesInt(1, 0);
+                          FFAppState().updateAddictionValuesIntAtIndex(
+                            1,
+                            (_) => 0,
+                          );
                         }
                       }
                     },
@@ -178,10 +190,16 @@ class _AddictionTestWidgetState extends State<AddictionTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue3 == 'Yes') {
-                        FFAppState().insertAtIndexInAddictionValuesInt(2, 1);
+                        FFAppState().updateAddictionValuesIntAtIndex(
+                          2,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue3 == 'No') {
-                          FFAppState().insertAtIndexInAddictionValuesInt(2, 0);
+                          FFAppState().updateAddictionValuesIntAtIndex(
+                            2,
+                            (_) => 0,
+                          );
                         }
                       }
                     },
@@ -223,10 +241,16 @@ class _AddictionTestWidgetState extends State<AddictionTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue4 == 'Yes') {
-                        FFAppState().insertAtIndexInAddictionValuesInt(3, 1);
+                        FFAppState().updateAddictionValuesIntAtIndex(
+                          3,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue4 == 'No') {
-                          FFAppState().insertAtIndexInAddictionValuesInt(3, 0);
+                          FFAppState().updateAddictionValuesIntAtIndex(
+                            3,
+                            (_) => 0,
+                          );
                         }
                       }
                     },

@@ -93,18 +93,30 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue1 == 'a. Never True') {
-                        FFAppState().insertAtIndexInAutismValuesInt(0, 0);
+                        FFAppState().updateAutismValuesIntAtIndex(
+                          0,
+                          (_) => 0,
+                        );
                       } else {
                         if (_model.radioButtonValue1 ==
                             'b. True When I Was Young') {
-                          FFAppState().insertAtIndexInAutismValuesInt(0, 1);
+                          FFAppState().updateAutismValuesIntAtIndex(
+                            0,
+                            (_) => 1,
+                          );
                         } else {
                           if (_model.radioButtonValue1 == 'c. True Only Now') {
-                            FFAppState().insertAtIndexInAutismValuesInt(0, 2);
+                            FFAppState().updateAutismValuesIntAtIndex(
+                              0,
+                              (_) => 2,
+                            );
                           } else {
                             if (_model.radioButtonValue1 ==
                                 'd. True Now & When Young') {
-                              FFAppState().insertAtIndexInAutismValuesInt(0, 3);
+                              FFAppState().updateAutismValuesIntAtIndex(
+                                0,
+                                (_) => 3,
+                              );
                             }
                           }
                         }
@@ -153,18 +165,30 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue2 == 'a. Never True') {
-                        FFAppState().insertAtIndexInAutismValuesInt(1, 0);
+                        FFAppState().updateAutismValuesIntAtIndex(
+                          1,
+                          (_) => 0,
+                        );
                       } else {
                         if (_model.radioButtonValue2 ==
                             'b. True When I Was Young') {
-                          FFAppState().insertAtIndexInAutismValuesInt(1, 1);
+                          FFAppState().updateAutismValuesIntAtIndex(
+                            1,
+                            (_) => 1,
+                          );
                         } else {
                           if (_model.radioButtonValue2 == 'c. True Only Now') {
-                            FFAppState().insertAtIndexInAutismValuesInt(1, 2);
+                            FFAppState().updateAutismValuesIntAtIndex(
+                              1,
+                              (_) => 2,
+                            );
                           } else {
                             if (_model.radioButtonValue2 ==
                                 'd. True Now & When Young') {
-                              FFAppState().insertAtIndexInAutismValuesInt(1, 3);
+                              FFAppState().updateAutismValuesIntAtIndex(
+                                1,
+                                (_) => 3,
+                              );
                             }
                           }
                         }
@@ -213,18 +237,30 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue3 == 'a. Never True') {
-                        FFAppState().insertAtIndexInAutismValuesInt(2, 0);
+                        FFAppState().updateAutismValuesIntAtIndex(
+                          2,
+                          (_) => 0,
+                        );
                       } else {
                         if (_model.radioButtonValue3 ==
                             'b. True When I Was Young') {
-                          FFAppState().insertAtIndexInAutismValuesInt(2, 1);
+                          FFAppState().updateAutismValuesIntAtIndex(
+                            2,
+                            (_) => 1,
+                          );
                         } else {
                           if (_model.radioButtonValue3 == 'c. True Only Now') {
-                            FFAppState().insertAtIndexInAutismValuesInt(2, 2);
+                            FFAppState().updateAutismValuesIntAtIndex(
+                              2,
+                              (_) => 2,
+                            );
                           } else {
                             if (_model.radioButtonValue3 ==
                                 'd. True Now & When Young') {
-                              FFAppState().insertAtIndexInAutismValuesInt(2, 3);
+                              FFAppState().updateAutismValuesIntAtIndex(
+                                2,
+                                (_) => 3,
+                              );
                             }
                           }
                         }
@@ -273,18 +309,30 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue4 == 'a. Never True') {
-                        FFAppState().insertAtIndexInAutismValuesInt(3, 0);
+                        FFAppState().updateAutismValuesIntAtIndex(
+                          3,
+                          (_) => 0,
+                        );
                       } else {
                         if (_model.radioButtonValue4 ==
                             'b. True When I Was Young') {
-                          FFAppState().insertAtIndexInAutismValuesInt(3, 1);
+                          FFAppState().updateAutismValuesIntAtIndex(
+                            3,
+                            (_) => 1,
+                          );
                         } else {
                           if (_model.radioButtonValue4 == 'c. True Only Now') {
-                            FFAppState().insertAtIndexInAutismValuesInt(3, 2);
+                            FFAppState().updateAutismValuesIntAtIndex(
+                              3,
+                              (_) => 2,
+                            );
                           } else {
                             if (_model.radioButtonValue4 ==
                                 'd. True Now & When Young') {
-                              FFAppState().insertAtIndexInAutismValuesInt(3, 3);
+                              FFAppState().updateAutismValuesIntAtIndex(
+                                3,
+                                (_) => 3,
+                              );
                             }
                           }
                         }
@@ -333,18 +381,30 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue5 == 'a. Never True') {
-                        FFAppState().insertAtIndexInAutismValuesInt(4, 0);
+                        FFAppState().updateAutismValuesIntAtIndex(
+                          4,
+                          (_) => 0,
+                        );
                       } else {
                         if (_model.radioButtonValue5 ==
                             'b. True When I Was Young') {
-                          FFAppState().insertAtIndexInAutismValuesInt(4, 1);
+                          FFAppState().updateAutismValuesIntAtIndex(
+                            4,
+                            (_) => 1,
+                          );
                         } else {
                           if (_model.radioButtonValue5 == 'c. True Only Now') {
-                            FFAppState().insertAtIndexInAutismValuesInt(4, 2);
+                            FFAppState().updateAutismValuesIntAtIndex(
+                              4,
+                              (_) => 2,
+                            );
                           } else {
                             if (_model.radioButtonValue5 ==
                                 'd. True Now & When Young') {
-                              FFAppState().insertAtIndexInAutismValuesInt(4, 3);
+                              FFAppState().updateAutismValuesIntAtIndex(
+                                4,
+                                (_) => 3,
+                              );
                             }
                           }
                         }
@@ -393,18 +453,30 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue6 == 'a. Never True') {
-                        FFAppState().insertAtIndexInAutismValuesInt(5, 3);
+                        FFAppState().updateAutismValuesIntAtIndex(
+                          5,
+                          (_) => 3,
+                        );
                       } else {
                         if (_model.radioButtonValue6 ==
                             'b. True When I Was Young') {
-                          FFAppState().insertAtIndexInAutismValuesInt(5, 2);
+                          FFAppState().updateAutismValuesIntAtIndex(
+                            5,
+                            (_) => 2,
+                          );
                         } else {
                           if (_model.radioButtonValue6 == 'c. True Only Now') {
-                            FFAppState().insertAtIndexInAutismValuesInt(5, 1);
+                            FFAppState().updateAutismValuesIntAtIndex(
+                              5,
+                              (_) => 1,
+                            );
                           } else {
                             if (_model.radioButtonValue6 ==
                                 'd. True Now & When Young') {
-                              FFAppState().insertAtIndexInAutismValuesInt(5, 0);
+                              FFAppState().updateAutismValuesIntAtIndex(
+                                5,
+                                (_) => 0,
+                              );
                             }
                           }
                         }
@@ -450,18 +522,30 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue7 == 'a. Never True') {
-                        FFAppState().insertAtIndexInAutismValuesInt(6, 0);
+                        FFAppState().updateAutismValuesIntAtIndex(
+                          6,
+                          (_) => 0,
+                        );
                       } else {
                         if (_model.radioButtonValue7 ==
                             'b. True When I Was Young') {
-                          FFAppState().insertAtIndexInAutismValuesInt(6, 1);
+                          FFAppState().updateAutismValuesIntAtIndex(
+                            6,
+                            (_) => 1,
+                          );
                         } else {
                           if (_model.radioButtonValue7 == 'c. True Only Now') {
-                            FFAppState().insertAtIndexInAutismValuesInt(6, 2);
+                            FFAppState().updateAutismValuesIntAtIndex(
+                              6,
+                              (_) => 2,
+                            );
                           } else {
                             if (_model.radioButtonValue7 ==
                                 'd. True Now & When Young') {
-                              FFAppState().insertAtIndexInAutismValuesInt(6, 3);
+                              FFAppState().updateAutismValuesIntAtIndex(
+                                6,
+                                (_) => 3,
+                              );
                             }
                           }
                         }
@@ -510,18 +594,30 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue8 == 'a. Never True') {
-                        FFAppState().insertAtIndexInAutismValuesInt(7, 0);
+                        FFAppState().updateAutismValuesIntAtIndex(
+                          7,
+                          (_) => 0,
+                        );
                       } else {
                         if (_model.radioButtonValue8 ==
                             'b. True When I Was Young') {
-                          FFAppState().insertAtIndexInAutismValuesInt(7, 1);
+                          FFAppState().updateAutismValuesIntAtIndex(
+                            7,
+                            (_) => 1,
+                          );
                         } else {
                           if (_model.radioButtonValue8 == 'c. True Only Now') {
-                            FFAppState().insertAtIndexInAutismValuesInt(7, 2);
+                            FFAppState().updateAutismValuesIntAtIndex(
+                              7,
+                              (_) => 2,
+                            );
                           } else {
                             if (_model.radioButtonValue8 ==
                                 'd. True Now & When Young') {
-                              FFAppState().insertAtIndexInAutismValuesInt(7, 3);
+                              FFAppState().updateAutismValuesIntAtIndex(
+                                7,
+                                (_) => 3,
+                              );
                             }
                           }
                         }
@@ -570,18 +666,30 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue9 == 'a. Never True') {
-                        FFAppState().insertAtIndexInAutismValuesInt(8, 0);
+                        FFAppState().updateAutismValuesIntAtIndex(
+                          8,
+                          (_) => 0,
+                        );
                       } else {
                         if (_model.radioButtonValue9 ==
                             'b. True When I Was Young') {
-                          FFAppState().insertAtIndexInAutismValuesInt(8, 1);
+                          FFAppState().updateAutismValuesIntAtIndex(
+                            8,
+                            (_) => 1,
+                          );
                         } else {
                           if (_model.radioButtonValue9 == 'c. True Only Now') {
-                            FFAppState().insertAtIndexInAutismValuesInt(8, 2);
+                            FFAppState().updateAutismValuesIntAtIndex(
+                              8,
+                              (_) => 2,
+                            );
                           } else {
                             if (_model.radioButtonValue9 ==
                                 'd. True Now & When Young') {
-                              FFAppState().insertAtIndexInAutismValuesInt(8, 3);
+                              FFAppState().updateAutismValuesIntAtIndex(
+                                8,
+                                (_) => 3,
+                              );
                             }
                           }
                         }
@@ -630,18 +738,30 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue10 == 'a. Never True') {
-                        FFAppState().insertAtIndexInAutismValuesInt(9, 0);
+                        FFAppState().updateAutismValuesIntAtIndex(
+                          9,
+                          (_) => 0,
+                        );
                       } else {
                         if (_model.radioButtonValue10 ==
                             'b. True When I Was Young') {
-                          FFAppState().insertAtIndexInAutismValuesInt(9, 1);
+                          FFAppState().updateAutismValuesIntAtIndex(
+                            9,
+                            (_) => 1,
+                          );
                         } else {
                           if (_model.radioButtonValue10 == 'c. True Only Now') {
-                            FFAppState().insertAtIndexInAutismValuesInt(9, 2);
+                            FFAppState().updateAutismValuesIntAtIndex(
+                              9,
+                              (_) => 2,
+                            );
                           } else {
                             if (_model.radioButtonValue10 ==
                                 'd. True Now & When Young') {
-                              FFAppState().insertAtIndexInAutismValuesInt(9, 3);
+                              FFAppState().updateAutismValuesIntAtIndex(
+                                9,
+                                (_) => 3,
+                              );
                             }
                           }
                         }
@@ -690,19 +810,30 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue11 == 'a. Never True') {
-                        FFAppState().insertAtIndexInAutismValuesInt(10, 0);
+                        FFAppState().updateAutismValuesIntAtIndex(
+                          10,
+                          (_) => 0,
+                        );
                       } else {
                         if (_model.radioButtonValue11 ==
                             'b. True When I Was Young') {
-                          FFAppState().insertAtIndexInAutismValuesInt(10, 1);
+                          FFAppState().updateAutismValuesIntAtIndex(
+                            10,
+                            (_) => 1,
+                          );
                         } else {
                           if (_model.radioButtonValue11 == 'c. True Only Now') {
-                            FFAppState().insertAtIndexInAutismValuesInt(10, 2);
+                            FFAppState().updateAutismValuesIntAtIndex(
+                              10,
+                              (_) => 2,
+                            );
                           } else {
                             if (_model.radioButtonValue11 ==
                                 'd. True Now & When Young') {
-                              FFAppState()
-                                  .insertAtIndexInAutismValuesInt(10, 3);
+                              FFAppState().updateAutismValuesIntAtIndex(
+                                10,
+                                (_) => 3,
+                              );
                             }
                           }
                         }
@@ -751,19 +882,30 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue12 == 'a. Never True') {
-                        FFAppState().insertAtIndexInAutismValuesInt(11, 0);
+                        FFAppState().updateAutismValuesIntAtIndex(
+                          11,
+                          (_) => 0,
+                        );
                       } else {
                         if (_model.radioButtonValue12 ==
                             'b. True When I Was Young') {
-                          FFAppState().insertAtIndexInAutismValuesInt(11, 1);
+                          FFAppState().updateAutismValuesIntAtIndex(
+                            11,
+                            (_) => 1,
+                          );
                         } else {
                           if (_model.radioButtonValue12 == 'c. True Only Now') {
-                            FFAppState().insertAtIndexInAutismValuesInt(11, 2);
+                            FFAppState().updateAutismValuesIntAtIndex(
+                              11,
+                              (_) => 2,
+                            );
                           } else {
                             if (_model.radioButtonValue12 ==
                                 'd. True Now & When Young') {
-                              FFAppState()
-                                  .insertAtIndexInAutismValuesInt(11, 3);
+                              FFAppState().updateAutismValuesIntAtIndex(
+                                11,
+                                (_) => 3,
+                              );
                             }
                           }
                         }
@@ -812,19 +954,30 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue13 == 'a. Never True') {
-                        FFAppState().insertAtIndexInAutismValuesInt(12, 0);
+                        FFAppState().updateAutismValuesIntAtIndex(
+                          12,
+                          (_) => 0,
+                        );
                       } else {
                         if (_model.radioButtonValue13 ==
                             'b. True When I Was Young') {
-                          FFAppState().insertAtIndexInAutismValuesInt(12, 1);
+                          FFAppState().updateAutismValuesIntAtIndex(
+                            12,
+                            (_) => 1,
+                          );
                         } else {
                           if (_model.radioButtonValue13 == 'c. True Only Now') {
-                            FFAppState().insertAtIndexInAutismValuesInt(12, 2);
+                            FFAppState().updateAutismValuesIntAtIndex(
+                              12,
+                              (_) => 2,
+                            );
                           } else {
                             if (_model.radioButtonValue13 ==
                                 'd. True Now & When Young') {
-                              FFAppState()
-                                  .insertAtIndexInAutismValuesInt(12, 3);
+                              FFAppState().updateAutismValuesIntAtIndex(
+                                12,
+                                (_) => 3,
+                              );
                             }
                           }
                         }
@@ -873,19 +1026,30 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue14 == 'a. Never True') {
-                        FFAppState().insertAtIndexInAutismValuesInt(13, 0);
+                        FFAppState().updateAutismValuesIntAtIndex(
+                          13,
+                          (_) => 0,
+                        );
                       } else {
                         if (_model.radioButtonValue14 ==
                             'b. True When I Was Young') {
-                          FFAppState().insertAtIndexInAutismValuesInt(13, 1);
+                          FFAppState().updateAutismValuesIntAtIndex(
+                            13,
+                            (_) => 1,
+                          );
                         } else {
                           if (_model.radioButtonValue14 == 'c. True Only Now') {
-                            FFAppState().insertAtIndexInAutismValuesInt(13, 2);
+                            FFAppState().updateAutismValuesIntAtIndex(
+                              13,
+                              (_) => 2,
+                            );
                           } else {
                             if (_model.radioButtonValue14 ==
                                 'd. True Now & When Young') {
-                              FFAppState()
-                                  .insertAtIndexInAutismValuesInt(13, 3);
+                              FFAppState().updateAutismValuesIntAtIndex(
+                                13,
+                                (_) => 3,
+                              );
                             }
                           }
                         }

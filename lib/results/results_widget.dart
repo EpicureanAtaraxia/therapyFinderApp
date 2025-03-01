@@ -365,6 +365,8 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                       alignment: AlignmentDirectional(0.0, 1.5),
                       child: FFButtonWidget(
                         onPressed: () async {
+                          await actions.clearItAllTime();
+
                           FFAppState().update(() {});
 
                           context.pushNamed(HomePageWidget.routeName);

@@ -97,23 +97,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue1 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(0, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          0,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue1 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(0, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            0,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue1 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(0, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              0,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue1 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(0, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                0,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue1 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(0, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  0,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -165,23 +180,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue2 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(1, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          1,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue2 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(1, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            1,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue2 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(1, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              1,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue2 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(1, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                1,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue2 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(1, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  1,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -233,23 +263,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue3 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(2, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          2,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue3 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(2, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            2,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue3 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(2, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              2,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue3 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(2, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                2,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue3 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(2, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  2,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -301,23 +346,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue4 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(3, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          3,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue4 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(3, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            3,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue4 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(3, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              3,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue4 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(3, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                3,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue4 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(3, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  3,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -369,23 +429,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue5 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(4, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          4,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue5 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(4, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            4,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue5 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(4, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              4,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue5 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(4, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                4,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue5 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(4, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  4,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -437,23 +512,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue6 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(5, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          5,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue6 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(5, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            5,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue6 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(5, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              5,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue6 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(5, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                5,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue6 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(5, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  5,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -505,23 +595,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue7 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(6, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          6,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue7 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(6, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            6,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue7 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(6, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              6,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue7 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(6, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                6,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue7 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(6, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  6,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -573,23 +678,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue8 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(7, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          7,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue8 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(7, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            7,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue8 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(7, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              7,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue8 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(7, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                7,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue8 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(7, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  7,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -641,23 +761,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue9 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(8, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          8,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue9 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(8, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            8,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue9 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(8, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              8,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue9 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(8, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                8,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue9 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(8, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  8,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -709,23 +844,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue10 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(9, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          9,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue10 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(9, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            9,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue10 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(9, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              9,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue10 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(9, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                9,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue10 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(9, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  9,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -777,23 +927,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue11 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(10, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          10,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue11 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(10, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            10,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue11 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(10, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              10,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue11 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(10, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                10,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue11 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(10, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  10,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -845,23 +1010,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue12 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(11, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          11,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue12 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(11, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            11,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue12 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(11, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              11,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue12 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(11, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                11,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue12 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(11, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  11,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -913,23 +1093,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue13 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(12, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          12,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue13 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(12, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            12,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue13 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(12, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              12,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue13 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(12, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                12,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue13 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(12, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  12,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -981,23 +1176,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue14 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(13, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          13,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue14 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(13, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            13,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue14 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(13, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              13,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue14 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(13, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                13,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue14 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(13, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  13,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -1049,23 +1259,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue15 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(14, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          14,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue15 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(14, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            14,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue15 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(14, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              14,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue15 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(14, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                14,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue15 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(14, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  14,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -1117,23 +1342,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue16 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(15, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          15,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue16 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(15, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            15,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue16 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(15, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              15,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue16 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(15, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                15,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue16 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(15, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  15,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -1185,23 +1425,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue17 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(16, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          16,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue17 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(16, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            16,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue17 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(16, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              16,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue17 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(16, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                16,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue17 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(16, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  16,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }
@@ -1253,23 +1508,38 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue18 == 'a. Not at all') {
-                        FFAppState().insertAtIndexInOCDValuesInt(17, 0);
+                        FFAppState().updateOCDValuesIntAtIndex(
+                          17,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue18 == 'b. A little') {
-                          FFAppState().insertAtIndexInOCDValuesInt(17, 1);
+                          FFAppState().updateOCDValuesIntAtIndex(
+                            17,
+                            (_) => 1,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue18 == 'c. Moderately') {
-                            FFAppState().insertAtIndexInOCDValuesInt(17, 2);
+                            FFAppState().updateOCDValuesIntAtIndex(
+                              17,
+                              (_) => 2,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue18 == 'd. A lot') {
-                              FFAppState().insertAtIndexInOCDValuesInt(17, 3);
+                              FFAppState().updateOCDValuesIntAtIndex(
+                                17,
+                                (_) => 3,
+                              );
                               safeSetState(() {});
                             } else {
                               if (_model.radioButtonValue18 == 'e. Extremely') {
-                                FFAppState().insertAtIndexInOCDValuesInt(17, 4);
+                                FFAppState().updateOCDValuesIntAtIndex(
+                                  17,
+                                  (_) => 4,
+                                );
                                 safeSetState(() {});
                               }
                             }

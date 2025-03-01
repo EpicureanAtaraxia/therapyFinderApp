@@ -100,7 +100,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                           0,
                           (_) => 0,
                         );
-                        FFAppState().insertAtIndexInDepressionChecks(0, 0);
+                        FFAppState().updateDepressionChecksAtIndex(
+                          0,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue1 == 'b. Several days') {
@@ -108,7 +111,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                             0,
                             (_) => 1,
                           );
-                          FFAppState().insertAtIndexInDepressionChecks(0, 0);
+                          FFAppState().updateDepressionChecksAtIndex(
+                            0,
+                            (_) => 0,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue1 ==
@@ -117,7 +123,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                               0,
                               (_) => 2,
                             );
-                            FFAppState().insertAtIndexInDepressionChecks(0, 1);
+                            FFAppState().updateDepressionChecksAtIndex(
+                              0,
+                              (_) => 1,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue1 ==
@@ -126,8 +135,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                                 0,
                                 (_) => 3,
                               );
-                              FFAppState()
-                                  .insertAtIndexInDepressionChecks(0, 1);
+                              FFAppState().updateDepressionChecksAtIndex(
+                                0,
+                                (_) => 1,
+                              );
                               safeSetState(() {});
                             }
                           }
@@ -181,7 +192,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                           1,
                           (_) => 0,
                         );
-                        FFAppState().insertAtIndexInDepressionChecks(1, 0);
+                        FFAppState().updateDepressionChecksAtIndex(
+                          1,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue2 == 'b. Several days') {
@@ -189,7 +203,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                             1,
                             (_) => 1,
                           );
-                          FFAppState().insertAtIndexInDepressionChecks(1, 0);
+                          FFAppState().updateDepressionChecksAtIndex(
+                            1,
+                            (_) => 0,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue2 ==
@@ -198,7 +215,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                               1,
                               (_) => 2,
                             );
-                            FFAppState().insertAtIndexInDepressionChecks(1, 1);
+                            FFAppState().updateDepressionChecksAtIndex(
+                              1,
+                              (_) => 1,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue2 ==
@@ -207,8 +227,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                                 1,
                                 (_) => 3,
                               );
-                              FFAppState()
-                                  .insertAtIndexInDepressionChecks(1, 1);
+                              FFAppState().updateDepressionChecksAtIndex(
+                                1,
+                                (_) => 1,
+                              );
                               safeSetState(() {});
                             }
                           }
@@ -262,7 +284,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                           2,
                           (_) => 0,
                         );
-                        FFAppState().insertAtIndexInDepressionChecks(2, 0);
+                        FFAppState().updateDepressionChecksAtIndex(
+                          2,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue3 == 'b. Several days') {
@@ -270,7 +295,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                             2,
                             (_) => 1,
                           );
-                          FFAppState().insertAtIndexInDepressionChecks(2, 0);
+                          FFAppState().updateDepressionChecksAtIndex(
+                            2,
+                            (_) => 0,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue3 ==
@@ -279,7 +307,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                               2,
                               (_) => 2,
                             );
-                            FFAppState().insertAtIndexInDepressionChecks(2, 1);
+                            FFAppState().updateDepressionChecksAtIndex(
+                              2,
+                              (_) => 1,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue3 ==
@@ -288,8 +319,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                                 2,
                                 (_) => 3,
                               );
-                              FFAppState()
-                                  .insertAtIndexInDepressionChecks(2, 1);
+                              FFAppState().updateDepressionChecksAtIndex(
+                                2,
+                                (_) => 1,
+                              );
                               safeSetState(() {});
                             }
                           }
@@ -343,7 +376,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                           3,
                           (_) => 0,
                         );
-                        FFAppState().insertAtIndexInDepressionChecks(3, 0);
+                        FFAppState().updateDepressionChecksAtIndex(
+                          3,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue4 == 'b. Several days') {
@@ -351,7 +387,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                             3,
                             (_) => 1,
                           );
-                          FFAppState().insertAtIndexInDepressionChecks(3, 0);
+                          FFAppState().updateDepressionChecksAtIndex(
+                            3,
+                            (_) => 0,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue4 ==
@@ -360,7 +399,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                               3,
                               (_) => 2,
                             );
-                            FFAppState().insertAtIndexInDepressionChecks(3, 1);
+                            FFAppState().updateDepressionChecksAtIndex(
+                              3,
+                              (e) => e + 1,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue4 ==
@@ -369,8 +411,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                                 3,
                                 (_) => 3,
                               );
-                              FFAppState()
-                                  .insertAtIndexInDepressionChecks(3, 1);
+                              FFAppState().updateDepressionChecksAtIndex(
+                                3,
+                                (_) => 1,
+                              );
                               safeSetState(() {});
                             }
                           }
@@ -424,7 +468,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                           4,
                           (_) => 0,
                         );
-                        FFAppState().insertAtIndexInDepressionChecks(4, 0);
+                        FFAppState().updateDepressionChecksAtIndex(
+                          4,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue5 == 'b. Several days') {
@@ -432,7 +479,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                             4,
                             (_) => 1,
                           );
-                          FFAppState().insertAtIndexInDepressionChecks(4, 0);
+                          FFAppState().updateDepressionChecksAtIndex(
+                            4,
+                            (_) => 0,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue5 ==
@@ -441,7 +491,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                               4,
                               (_) => 2,
                             );
-                            FFAppState().insertAtIndexInDepressionChecks(4, 1);
+                            FFAppState().updateDepressionChecksAtIndex(
+                              4,
+                              (_) => 1,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue5 ==
@@ -450,8 +503,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                                 4,
                                 (_) => 3,
                               );
-                              FFAppState()
-                                  .insertAtIndexInDepressionChecks(4, 1);
+                              FFAppState().updateDepressionChecksAtIndex(
+                                4,
+                                (_) => 1,
+                              );
                               safeSetState(() {});
                             }
                           }
@@ -505,7 +560,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                           5,
                           (_) => 0,
                         );
-                        FFAppState().insertAtIndexInDepressionChecks(5, 0);
+                        FFAppState().updateDepressionChecksAtIndex(
+                          5,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue6 == 'b. Several days') {
@@ -513,7 +571,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                             5,
                             (_) => 1,
                           );
-                          FFAppState().insertAtIndexInDepressionChecks(5, 0);
+                          FFAppState().updateDepressionChecksAtIndex(
+                            5,
+                            (_) => 0,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue6 ==
@@ -522,7 +583,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                               5,
                               (_) => 2,
                             );
-                            FFAppState().insertAtIndexInDepressionChecks(5, 1);
+                            FFAppState().updateDepressionChecksAtIndex(
+                              5,
+                              (_) => 1,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue6 ==
@@ -531,8 +595,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                                 5,
                                 (_) => 3,
                               );
-                              FFAppState()
-                                  .insertAtIndexInDepressionChecks(5, 1);
+                              FFAppState().updateDepressionChecksAtIndex(
+                                5,
+                                (_) => 1,
+                              );
                               safeSetState(() {});
                             }
                           }
@@ -586,7 +652,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                           6,
                           (_) => 0,
                         );
-                        FFAppState().insertAtIndexInDepressionChecks(6, 0);
+                        FFAppState().updateDepressionChecksAtIndex(
+                          6,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue7 == 'b. Several days') {
@@ -594,7 +663,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                             6,
                             (_) => 1,
                           );
-                          FFAppState().insertAtIndexInDepressionChecks(6, 0);
+                          FFAppState().updateDepressionChecksAtIndex(
+                            6,
+                            (_) => 0,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue7 ==
@@ -603,7 +675,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                               6,
                               (_) => 2,
                             );
-                            FFAppState().insertAtIndexInDepressionChecks(6, 1);
+                            FFAppState().updateDepressionChecksAtIndex(
+                              6,
+                              (_) => 1,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue7 ==
@@ -612,8 +687,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                                 6,
                                 (_) => 3,
                               );
-                              FFAppState()
-                                  .insertAtIndexInDepressionChecks(6, 1);
+                              FFAppState().updateDepressionChecksAtIndex(
+                                6,
+                                (_) => 1,
+                              );
                               safeSetState(() {});
                             }
                           }
@@ -667,7 +744,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                           7,
                           (_) => 0,
                         );
-                        FFAppState().insertAtIndexInDepressionChecks(7, 0);
+                        FFAppState().updateDepressionChecksAtIndex(
+                          7,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue8 == 'b. Several days') {
@@ -675,7 +755,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                             7,
                             (_) => 1,
                           );
-                          FFAppState().insertAtIndexInDepressionChecks(7, 0);
+                          FFAppState().updateDepressionChecksAtIndex(
+                            7,
+                            (_) => 0,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue8 ==
@@ -684,7 +767,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                               7,
                               (_) => 2,
                             );
-                            FFAppState().insertAtIndexInDepressionChecks(7, 1);
+                            FFAppState().updateDepressionChecksAtIndex(
+                              7,
+                              (_) => 1,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue8 ==
@@ -693,8 +779,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                                 7,
                                 (_) => 3,
                               );
-                              FFAppState()
-                                  .insertAtIndexInDepressionChecks(7, 1);
+                              FFAppState().updateDepressionChecksAtIndex(
+                                7,
+                                (_) => 1,
+                              );
                               safeSetState(() {});
                             }
                           }
@@ -748,7 +836,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                           8,
                           (_) => 0,
                         );
-                        FFAppState().insertAtIndexInDepressionChecks(8, 0);
+                        FFAppState().updateDepressionChecksAtIndex(
+                          8,
+                          (_) => 0,
+                        );
                         safeSetState(() {});
                       } else {
                         if (_model.radioButtonValue9 == 'b. Several days') {
@@ -756,7 +847,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                             8,
                             (_) => 1,
                           );
-                          FFAppState().insertAtIndexInDepressionChecks(8, 1);
+                          FFAppState().updateDepressionChecksAtIndex(
+                            8,
+                            (_) => 0,
+                          );
                           safeSetState(() {});
                         } else {
                           if (_model.radioButtonValue9 ==
@@ -765,7 +859,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                               8,
                               (_) => 2,
                             );
-                            FFAppState().insertAtIndexInDepressionChecks(8, 1);
+                            FFAppState().updateDepressionChecksAtIndex(
+                              8,
+                              (_) => 1,
+                            );
                             safeSetState(() {});
                           } else {
                             if (_model.radioButtonValue9 ==
@@ -774,8 +871,10 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                                 8,
                                 (_) => 3,
                               );
-                              FFAppState()
-                                  .insertAtIndexInDepressionChecks(8, 1);
+                              FFAppState().updateDepressionChecksAtIndex(
+                                8,
+                                (_) => 1,
+                              );
                               safeSetState(() {});
                             }
                           }

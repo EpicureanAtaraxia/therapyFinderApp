@@ -88,10 +88,16 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue1 == 'Yes') {
-                        FFAppState().insertAtIndexInBPDValuesInt(0, 1);
+                        FFAppState().updateBPDValuesIntAtIndex(
+                          0,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue1 == 'No') {
-                          FFAppState().insertAtIndexInBPDValuesInt(0, 0);
+                          FFAppState().updateBPDValuesIntAtIndex(
+                            0,
+                            (_) => 0,
+                          );
                         }
                       }
                     },
@@ -133,10 +139,16 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue2 == 'Yes') {
-                        FFAppState().insertAtIndexInBPDValuesInt(1, 1);
+                        FFAppState().updateBPDValuesIntAtIndex(
+                          1,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue2 == 'No') {
-                          FFAppState().insertAtIndexInBPDValuesInt(1, 0);
+                          FFAppState().updateBPDValuesIntAtIndex(
+                            1,
+                            (_) => 0,
+                          );
                         }
                       }
                     },
@@ -178,10 +190,16 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue3 == 'Yes') {
-                        FFAppState().insertAtIndexInBPDValuesInt(2, 1);
+                        FFAppState().updateBPDValuesIntAtIndex(
+                          2,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue3 == 'No') {
-                          FFAppState().insertAtIndexInBPDValuesInt(2, 0);
+                          FFAppState().updateBPDValuesIntAtIndex(
+                            2,
+                            (_) => 0,
+                          );
                         }
                       }
                     },
@@ -223,10 +241,16 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue4 == 'Yes') {
-                        FFAppState().insertAtIndexInBPDValuesInt(3, 1);
+                        FFAppState().updateBPDValuesIntAtIndex(
+                          3,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue4 == 'No') {
-                          FFAppState().insertAtIndexInBPDValuesInt(3, 0);
+                          FFAppState().updateBPDValuesIntAtIndex(
+                            3,
+                            (_) => 0,
+                          );
                         }
                       }
                     },
@@ -268,10 +292,16 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue5 == 'Yes') {
-                        FFAppState().insertAtIndexInBPDValuesInt(4, 1);
+                        FFAppState().updateBPDValuesIntAtIndex(
+                          4,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue5 == 'No') {
-                          FFAppState().insertAtIndexInBPDValuesInt(4, 0);
+                          FFAppState().updateBPDValuesIntAtIndex(
+                            4,
+                            (_) => 0,
+                          );
                         }
                       }
                     },
@@ -313,10 +343,16 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue6 == 'Yes') {
-                        FFAppState().insertAtIndexInBPDValuesInt(5, 1);
+                        FFAppState().updateBPDValuesIntAtIndex(
+                          5,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue6 == 'No') {
-                          FFAppState().insertAtIndexInBPDValuesInt(5, 0);
+                          FFAppState().updateBPDValuesIntAtIndex(
+                            5,
+                            (_) => 0,
+                          );
                         }
                       }
                     },
@@ -358,10 +394,16 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue7 == 'Yes') {
-                        FFAppState().insertAtIndexInBPDValuesInt(6, 1);
+                        FFAppState().updateBPDValuesIntAtIndex(
+                          6,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue7 == 'No') {
-                          FFAppState().insertAtIndexInBPDValuesInt(6, 0);
+                          FFAppState().updateBPDValuesIntAtIndex(
+                            6,
+                            (_) => 0,
+                          );
                         }
                       }
                     },
@@ -403,10 +445,16 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue8 == 'Yes') {
-                        FFAppState().insertAtIndexInBPDValuesInt(7, 1);
+                        FFAppState().updateBPDValuesIntAtIndex(
+                          7,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue8 == 'No') {
-                          FFAppState().insertAtIndexInBPDValuesInt(7, 0);
+                          FFAppState().updateBPDValuesIntAtIndex(
+                            7,
+                            (_) => 0,
+                          );
                         }
                       }
                     },
@@ -448,10 +496,16 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue9 == 'Yes') {
-                        FFAppState().insertAtIndexInBPDValuesInt(8, 1);
+                        FFAppState().updateBPDValuesIntAtIndex(
+                          8,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue9 == 'No') {
-                          FFAppState().insertAtIndexInBPDValuesInt(8, 0);
+                          FFAppState().updateBPDValuesIntAtIndex(
+                            8,
+                            (_) => 0,
+                          );
                         }
                       }
                     },
@@ -493,10 +547,16 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue10 == 'Yes') {
-                        FFAppState().insertAtIndexInBPDValuesInt(9, 1);
+                        FFAppState().updateBPDValuesIntAtIndex(
+                          9,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue10 == 'No') {
-                          FFAppState().insertAtIndexInBPDValuesInt(9, 0);
+                          FFAppState().updateBPDValuesIntAtIndex(
+                            9,
+                            (_) => 0,
+                          );
                         }
                       }
                     },

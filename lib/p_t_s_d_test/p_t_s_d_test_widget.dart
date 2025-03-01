@@ -189,10 +189,16 @@ class _PTSDTestWidgetState extends State<PTSDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue3 == 'Yes') {
-                        FFAppState().insertAtIndexInPTSDValuesInt(1, 1);
+                        FFAppState().updatePTSDValuesIntAtIndex(
+                          1,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue3 == 'No') {
-                          FFAppState().insertAtIndexInPTSDValuesInt(1, 0);
+                          FFAppState().updatePTSDValuesIntAtIndex(
+                            1,
+                            (_) => 0,
+                          );
                         }
                       }
                     },
@@ -234,10 +240,16 @@ class _PTSDTestWidgetState extends State<PTSDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue4 == 'Yes') {
-                        FFAppState().insertAtIndexInPTSDValuesInt(2, 1);
+                        FFAppState().updatePTSDValuesIntAtIndex(
+                          2,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue4 == 'No') {
-                          FFAppState().insertAtIndexInPTSDValuesInt(2, 0);
+                          FFAppState().updatePTSDValuesIntAtIndex(
+                            2,
+                            (_) => 0,
+                          );
                         }
                       }
                     },
@@ -279,10 +291,16 @@ class _PTSDTestWidgetState extends State<PTSDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue5 == 'Yes') {
-                        FFAppState().insertAtIndexInPTSDValuesInt(3, 1);
+                        FFAppState().updatePTSDValuesIntAtIndex(
+                          3,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue5 == 'No') {
-                          FFAppState().insertAtIndexInPTSDValuesInt(3, 0);
+                          FFAppState().updatePTSDValuesIntAtIndex(
+                            3,
+                            (_) => 0,
+                          );
                         }
                       }
                     },
@@ -324,10 +342,16 @@ class _PTSDTestWidgetState extends State<PTSDTestWidget> {
                     onChanged: (val) async {
                       safeSetState(() {});
                       if (_model.radioButtonValue6 == 'Yes') {
-                        FFAppState().insertAtIndexInPTSDValuesInt(4, 1);
+                        FFAppState().updatePTSDValuesIntAtIndex(
+                          4,
+                          (_) => 1,
+                        );
                       } else {
                         if (_model.radioButtonValue6 == 'No') {
-                          FFAppState().insertAtIndexInPTSDValuesInt(4, 0);
+                          FFAppState().updatePTSDValuesIntAtIndex(
+                            4,
+                            (_) => 0,
+                          );
                         }
                       }
                     },

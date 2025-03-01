@@ -180,7 +180,26 @@ class FFAppState extends ChangeNotifier {
     _BPDDiagnosis = value;
   }
 
-  List<int> _OCDValuesInt = [];
+  List<int> _OCDValuesInt = [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ];
   List<int> get OCDValuesInt => _OCDValuesInt;
   set OCDValuesInt(List<int> value) {
     _OCDValuesInt = value;
@@ -221,7 +240,7 @@ class FFAppState extends ChangeNotifier {
     _OCDDiagnosis = value;
   }
 
-  List<int> _AutismValuesInt = [];
+  List<int> _AutismValuesInt = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
   List<int> get AutismValuesInt => _AutismValuesInt;
   set AutismValuesInt(List<int> value) {
     _AutismValuesInt = value;
@@ -262,7 +281,7 @@ class FFAppState extends ChangeNotifier {
     _AutismDiagnosis = value;
   }
 
-  List<int> _PTSDValuesInt = [];
+  List<int> _PTSDValuesInt = [0, 0, 0, 0, 0, 0];
   List<int> get PTSDValuesInt => _PTSDValuesInt;
   set PTSDValuesInt(List<int> value) {
     _PTSDValuesInt = value;
@@ -309,7 +328,7 @@ class FFAppState extends ChangeNotifier {
     _PTSDCheck = value;
   }
 
-  List<int> _AddictionValuesInt = [];
+  List<int> _AddictionValuesInt = [0, 0, 0, 0];
   List<int> get AddictionValuesInt => _AddictionValuesInt;
   set AddictionValuesInt(List<int> value) {
     _AddictionValuesInt = value;
