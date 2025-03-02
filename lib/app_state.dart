@@ -440,4 +440,33 @@ class FFAppState extends ChangeNotifier {
   set emailchecked(bool value) {
     _emailchecked = value;
   }
+
+  List<String> _checkboxesSelected = [];
+  List<String> get checkboxesSelected => _checkboxesSelected;
+  set checkboxesSelected(List<String> value) {
+    _checkboxesSelected = value;
+  }
+
+  void addToCheckboxesSelected(String value) {
+    checkboxesSelected.add(value);
+  }
+
+  void removeFromCheckboxesSelected(String value) {
+    checkboxesSelected.remove(value);
+  }
+
+  void removeAtIndexFromCheckboxesSelected(int index) {
+    checkboxesSelected.removeAt(index);
+  }
+
+  void updateCheckboxesSelectedAtIndex(
+    int index,
+    String Function(String) updateFn,
+  ) {
+    checkboxesSelected[index] = updateFn(_checkboxesSelected[index]);
+  }
+
+  void insertAtIndexInCheckboxesSelected(int index, String value) {
+    checkboxesSelected.insert(index, value);
+  }
 }

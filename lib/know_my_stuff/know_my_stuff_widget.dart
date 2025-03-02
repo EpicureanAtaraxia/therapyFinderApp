@@ -140,6 +140,10 @@ class _KnowMyStuffWidgetState extends State<KnowMyStuffWidget> {
                   ),
                   FFButtonWidget(
                     onPressed: () async {
+                      FFAppState().checkboxesSelected =
+                          _model.checkboxGroupValues!.toList().cast<String>();
+                      safeSetState(() {});
+                      await actions.checkBoxCheck();
                       await actions.totalResults();
                       await actions.recommendedTherapies();
 

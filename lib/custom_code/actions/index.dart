@@ -9,3 +9,4 @@ export 'total_results.dart' show totalResults;
 export 'recommended_therapies.dart' show recommendedTherapies;
 export 'link_creation_time.dart' show linkCreationTime;
 export 'clear_it_all_time.dart' show clearItAllTime;
+export 'check_box_check.dart' show checkBoxCheck;

@@ -157,10 +157,6 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                             onChanged: (newValue) async {
                               safeSetState(
                                   () => _model.checkboxValue = newValue!);
-                              if (newValue!) {
-                                FFAppState().emailchecked = true;
-                                safeSetState(() {});
-                              }
                             },
                             side: BorderSide(
                               width: 2,
@@ -399,6 +395,8 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                       alignment: AlignmentDirectional(0.0, 1.5),
                       child: FFButtonWidget(
                         onPressed: () async {
+                          FFAppState().emailchecked = _model.checkboxValue!;
+                          safeSetState(() {});
                           FFAppState().zipcode =
                               _model.zipCodeTextController.text;
                           safeSetState(() {});
