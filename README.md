@@ -12,5 +12,4 @@ I originally came up with the idea for this app because starting in high school 
 
 Once I have it more polished I hope to publish it on Google Play and the App Store. For now, you can use it by going to the flutterflow branch and downloading the Therapy Finder App-release.zip file. You then want to open it and download the .apk file. You can run this on an Android phone or an Android simulator. 
 
-## Contributing
 
