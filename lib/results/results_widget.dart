@@ -7,7 +7,6 @@ import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'results_model.dart';
 export 'results_model.dart';
 
@@ -33,9 +32,6 @@ class _ResultsWidgetState extends State<ResultsWidget> {
 
     _model.zipCodeTextController ??= TextEditingController();
     _model.zipCodeFocusNode ??= FocusNode();
-
-    _model.emailFieldTextController ??= TextEditingController();
-    _model.emailFieldFocusNode ??= FocusNode();
   }
 
   @override
@@ -113,7 +109,9 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                       FFAppState().RecommendedTherapies,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Poppins',
+                            fontSize: 16.0,
                             letterSpacing: 0.0,
+                            fontWeight: FontWeight.normal,
                           ),
                     ),
                   ),
@@ -123,7 +121,7 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                   child: Padding(
                     padding: EdgeInsets.all(10.0),
                     child: Text(
-                      'If you want to see therapists near you, trained for your unique challenges, please enter your zip code and email below!\n\nIn order to receive this email please check the box below to consent to emails from us!',
+                      'If you want to see therapists near you, trained for your unique challenges, please enter your zip code below!',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Poppins',
                             fontSize: 18.0,
@@ -131,52 +129,6 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                           ),
                     ),
                   ),
-                ),
-                Row(
-                  mainAxisSize: MainAxisSize.max,
-                  children: [
-                    Align(
-                      alignment: AlignmentDirectional(-1.0, 0.0),
-                      child: Padding(
-                        padding: EdgeInsets.all(10.0),
-                        child: Theme(
-                          data: ThemeData(
-                            checkboxTheme: CheckboxThemeData(
-                              visualDensity: VisualDensity.compact,
-                              materialTapTargetSize:
-                                  MaterialTapTargetSize.shrinkWrap,
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(4.0),
-                              ),
-                            ),
-                            unselectedWidgetColor:
-                                FlutterFlowTheme.of(context).alternate,
-                          ),
-                          child: Checkbox(
-                            value: _model.checkboxValue ??= false,
-                            onChanged: (newValue) async {
-                              safeSetState(
-                                  () => _model.checkboxValue = newValue!);
-                            },
-                            side: BorderSide(
-                              width: 2,
-                              color: FlutterFlowTheme.of(context).alternate,
-                            ),
-                            activeColor: FlutterFlowTheme.of(context).primary,
-                            checkColor: FlutterFlowTheme.of(context).info,
-                          ),
-                        ),
-                      ),
-                    ),
-                    Text(
-                      'I consent to being emailed and to future emails.',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 14.0,
-                            letterSpacing: 0.0,
-                          ),
-                    ),
-                  ],
                 ),
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
@@ -221,14 +173,14 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                               ),
                       enabledBorder: UnderlineInputBorder(
                         borderSide: BorderSide(
-                          color: FlutterFlowTheme.of(context).alternate,
+                          color: Color(0xFF152514),
                           width: 2.0,
                         ),
                         borderRadius: BorderRadius.circular(8.0),
                       ),
                       focusedBorder: UnderlineInputBorder(
                         borderSide: BorderSide(
-                          color: FlutterFlowTheme.of(context).primary,
+                          color: Color(0xFF152514),
                           width: 2.0,
                         ),
                         borderRadius: BorderRadius.circular(8.0),
@@ -254,93 +206,6 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                         ),
                     validator: _model.zipCodeTextControllerValidator
                         .asValidator(context),
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsets.all(10.0),
-                  child: TextFormField(
-                    controller: _model.emailFieldTextController,
-                    focusNode: _model.emailFieldFocusNode,
-                    autofocus: true,
-                    obscureText: false,
-                    decoration: InputDecoration(
-                      labelText: 'Email:',
-                      labelStyle:
-                          FlutterFlowTheme.of(context).labelMedium.override(
-                                fontFamily: 'Poppins',
-                                fontSize: 18.0,
-                                letterSpacing: 0.0,
-                              ),
-                      hintStyle:
-                          FlutterFlowTheme.of(context).labelMedium.override(
-                                fontFamily: 'Poppins',
-                                letterSpacing: 0.0,
-                              ),
-                      enabledBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(
-                          color: FlutterFlowTheme.of(context).alternate,
-                          width: 2.0,
-                        ),
-                        borderRadius: BorderRadius.circular(8.0),
-                      ),
-                      focusedBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(
-                          color: FlutterFlowTheme.of(context).primary,
-                          width: 2.0,
-                        ),
-                        borderRadius: BorderRadius.circular(8.0),
-                      ),
-                      errorBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(
-                          color: FlutterFlowTheme.of(context).error,
-                          width: 2.0,
-                        ),
-                        borderRadius: BorderRadius.circular(8.0),
-                      ),
-                      focusedErrorBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(
-                          color: FlutterFlowTheme.of(context).error,
-                          width: 2.0,
-                        ),
-                        borderRadius: BorderRadius.circular(8.0),
-                      ),
-                    ),
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
-                          letterSpacing: 0.0,
-                        ),
-                    validator: _model.emailFieldTextControllerValidator
-                        .asValidator(context),
-                  ),
-                ),
-                Align(
-                  alignment: AlignmentDirectional(-1.0, 0.0),
-                  child: Padding(
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 0.0),
-                    child: Text(
-                      '\nResults:',
-                      textAlign: TextAlign.start,
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 20.0,
-                            letterSpacing: 0.0,
-                          ),
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: AlignmentDirectional(-1.0, 0.0),
-                  child: Padding(
-                    padding: EdgeInsets.all(10.0),
-                    child: SelectionArea(
-                        child: Text(
-                      FFAppState().LinkString,
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            letterSpacing: 0.0,
-                          ),
-                    )),
                   ),
                 ),
                 Align(
@@ -395,26 +260,11 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                       alignment: AlignmentDirectional(0.0, 1.5),
                       child: FFButtonWidget(
                         onPressed: () async {
-                          FFAppState().emailchecked = _model.checkboxValue!;
-                          safeSetState(() {});
                           FFAppState().zipcode =
                               _model.zipCodeTextController.text;
                           safeSetState(() {});
                           await actions.linkCreationTime();
-                          if (FFAppState().emailchecked == true) {
-                            await launchUrl(Uri(
-                                scheme: 'mailto',
-                                path: _model.emailFieldTextController.text,
-                                query: {
-                                  'subject':
-                                      'Here Are Your Reccommended Therapists!',
-                                  'body': FFAppState().LinkString,
-                                }
-                                    .entries
-                                    .map((MapEntry<String, String> e) =>
-                                        '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
-                                    .join('&')));
-                          }
+                          await launchURL(FFAppState().LinkString);
 
                           safeSetState(() {});
                         },

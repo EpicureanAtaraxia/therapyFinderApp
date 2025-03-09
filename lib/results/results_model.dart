@@ -8,21 +8,14 @@ import 'results_widget.dart' show ResultsWidget;
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class ResultsModel extends FlutterFlowModel<ResultsWidget> {
   ///  State fields for stateful widgets in this page.
 
-  // State field(s) for Checkbox widget.
-  bool? checkboxValue;
   // State field(s) for ZipCode widget.
   FocusNode? zipCodeFocusNode;
   TextEditingController? zipCodeTextController;
   String? Function(BuildContext, String?)? zipCodeTextControllerValidator;
-  // State field(s) for EmailField widget.
-  FocusNode? emailFieldFocusNode;
-  TextEditingController? emailFieldTextController;
-  String? Function(BuildContext, String?)? emailFieldTextControllerValidator;
 
   @override
   void initState(BuildContext context) {}
@@ -31,8 +24,5 @@ class ResultsModel extends FlutterFlowModel<ResultsWidget> {
   void dispose() {
     zipCodeFocusNode?.dispose();
     zipCodeTextController?.dispose();
-
-    emailFieldFocusNode?.dispose();
-    emailFieldTextController?.dispose();
   }
 }

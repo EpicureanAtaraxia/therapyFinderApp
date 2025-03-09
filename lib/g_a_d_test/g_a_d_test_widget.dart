@@ -691,36 +691,77 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                           letterSpacing: 0.0,
                         ),
                   ),
-                  FFButtonWidget(
-                    onPressed: () async {
-                      await actions.addingTime();
+                  Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Align(
+                        alignment: AlignmentDirectional(0.0, 1.5),
+                        child: FFButtonWidget(
+                          onPressed: () async {
+                            await actions.clearItAllTime();
 
-                      safeSetState(() {});
+                            FFAppState().update(() {});
 
-                      context.pushNamed(DepressionTestWidget.routeName);
-                    },
-                    text: 'Submit',
-                    options: FFButtonOptions(
-                      width: 200.0,
-                      height: 55.0,
-                      padding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      iconPadding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      color: Color(0xFF152514),
-                      textStyle:
-                          FlutterFlowTheme.of(context).titleLarge.override(
-                                fontFamily: 'Poppins',
-                                color: Color(0xFFEEF2F3),
-                                fontSize: 20.0,
-                                letterSpacing: 0.0,
-                              ),
-                      borderSide: BorderSide(
-                        color: Colors.transparent,
-                        width: 1.0,
+                            context.pushNamed(HomePageWidget.routeName);
+                          },
+                          text: 'Exit',
+                          options: FFButtonOptions(
+                            width: 150.0,
+                            height: 55.0,
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 0.0),
+                            iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 0.0),
+                            color: Color(0xFF152514),
+                            textStyle: FlutterFlowTheme.of(context)
+                                .titleLarge
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  color: Color(0xFFEEF2F3),
+                                  fontSize: 20.0,
+                                  letterSpacing: 0.0,
+                                ),
+                            borderSide: BorderSide(
+                              color: Colors.transparent,
+                              width: 1.0,
+                            ),
+                            borderRadius: BorderRadius.circular(8.0),
+                          ),
+                        ),
                       ),
-                      borderRadius: BorderRadius.circular(8.0),
-                    ),
+                      FFButtonWidget(
+                        onPressed: () async {
+                          await actions.addingTime();
+
+                          safeSetState(() {});
+
+                          context.pushNamed(DepressionTestWidget.routeName);
+                        },
+                        text: 'Submit',
+                        options: FFButtonOptions(
+                          width: 150.0,
+                          height: 55.0,
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          iconPadding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          color: Color(0xFF152514),
+                          textStyle:
+                              FlutterFlowTheme.of(context).titleLarge.override(
+                                    fontFamily: 'Poppins',
+                                    color: Color(0xFFEEF2F3),
+                                    fontSize: 20.0,
+                                    letterSpacing: 0.0,
+                                  ),
+                          borderSide: BorderSide(
+                            color: Colors.transparent,
+                            width: 1.0,
+                          ),
+                          borderRadius: BorderRadius.circular(8.0),
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ),
