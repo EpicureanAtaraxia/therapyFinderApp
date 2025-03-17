@@ -62,13 +62,13 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                   Align(
                     alignment: AlignmentDirectional(-0.15, 0.1),
                     child: Padding(
-                      padding: EdgeInsets.all(10.0),
+                      padding: EdgeInsets.all(20.0),
                       child: Text(
                         '\nOver the last 2 weeks, how often have you been bothered by the follwing problems?\n',
                         textAlign: TextAlign.start,
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Poppins',
-                              fontSize: 18.0,
+                              fontFamily: 'Neuton',
+                              fontSize: 24.0,
                               letterSpacing: 0.0,
                             ),
                       ),
@@ -77,13 +77,13 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                   Align(
                     alignment: AlignmentDirectional(-1.0, -0.05),
                     child: Padding(
-                      padding: EdgeInsets.all(10.0),
+                      padding: EdgeInsets.all(20.0),
                       child: Text(
                         '1. Feeling nervous, anxious, or on edge',
                         textAlign: TextAlign.start,
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Poppins',
-                              fontSize: 16.0,
+                              fontFamily: 'Neuton',
+                              fontSize: 20.0,
                               letterSpacing: 0.0,
                             ),
                       ),
@@ -135,13 +135,13 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                       optionHeight: 40.0,
                       textStyle:
                           FlutterFlowTheme.of(context).bodyMedium.override(
-                                fontFamily: 'Poppins',
+                                fontFamily: 'PT Serif',
                                 color: Colors.black,
                                 letterSpacing: 0.0,
                               ),
                       buttonPosition: RadioButtonPosition.left,
                       direction: Axis.vertical,
-                      radioButtonColor: Colors.blue,
+                      radioButtonColor: Color(0xFF02302B),
                       inactiveRadioButtonColor: Color(0x8A000000),
                       toggleable: false,
                       horizontalAlignment: WrapAlignment.start,
@@ -151,13 +151,13 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                   Align(
                     alignment: AlignmentDirectional(-1.0, -0.05),
                     child: Padding(
-                      padding: EdgeInsets.all(10.0),
+                      padding: EdgeInsets.all(20.0),
                       child: Text(
                         '\n2. Not being able to stop or control worrying',
                         textAlign: TextAlign.start,
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Poppins',
-                              fontSize: 16.0,
+                              fontFamily: 'Neuton',
+                              fontSize: 20.0,
                               letterSpacing: 0.0,
                             ),
                       ),
@@ -209,13 +209,13 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                       optionHeight: 40.0,
                       textStyle:
                           FlutterFlowTheme.of(context).bodyMedium.override(
-                                fontFamily: 'Poppins',
+                                fontFamily: 'PT Serif',
                                 color: Colors.black,
                                 letterSpacing: 0.0,
                               ),
                       buttonPosition: RadioButtonPosition.left,
                       direction: Axis.vertical,
-                      radioButtonColor: Colors.blue,
+                      radioButtonColor: Color(0xFF02302B),
                       inactiveRadioButtonColor: Color(0x8A000000),
                       toggleable: false,
                       horizontalAlignment: WrapAlignment.start,
@@ -225,12 +225,12 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                   Align(
                     alignment: AlignmentDirectional(-1.0, -0.05),
                     child: Padding(
-                      padding: EdgeInsets.all(10.0),
+                      padding: EdgeInsets.all(20.0),
                       child: Text(
                         '\n3. Worrying too much about different things',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Poppins',
-                              fontSize: 16.0,
+                              fontFamily: 'Neuton',
+                              fontSize: 20.0,
                               letterSpacing: 0.0,
                             ),
                       ),
@@ -284,13 +284,13 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                       optionHeight: 40.0,
                       textStyle:
                           FlutterFlowTheme.of(context).bodyMedium.override(
-                                fontFamily: 'Poppins',
+                                fontFamily: 'PT Serif',
                                 color: Colors.black,
                                 letterSpacing: 0.0,
                               ),
                       buttonPosition: RadioButtonPosition.left,
                       direction: Axis.vertical,
-                      radioButtonColor: Colors.blue,
+                      radioButtonColor: Color(0xFF02302B),
                       inactiveRadioButtonColor: Color(0x8A000000),
                       toggleable: false,
                       horizontalAlignment: WrapAlignment.start,
@@ -300,12 +300,12 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                   Align(
                     alignment: AlignmentDirectional(-1.0, -0.05),
                     child: Padding(
-                      padding: EdgeInsets.all(10.0),
+                      padding: EdgeInsets.all(20.0),
                       child: Text(
                         '\n4. Trouble relaxing',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Poppins',
-                              fontSize: 16.0,
+                              fontFamily: 'Neuton',
+                              fontSize: 20.0,
                               letterSpacing: 0.0,
                             ),
                       ),
@@ -361,13 +361,13 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                       optionHeight: 40.0,
                       textStyle:
                           FlutterFlowTheme.of(context).bodyMedium.override(
-                                fontFamily: 'Poppins',
+                                fontFamily: 'PT Serif',
                                 color: Colors.black,
                                 letterSpacing: 0.0,
                               ),
                       buttonPosition: RadioButtonPosition.left,
                       direction: Axis.vertical,
-                      radioButtonColor: Colors.blue,
+                      radioButtonColor: Color(0xFF02302B),
                       inactiveRadioButtonColor: Color(0x8A000000),
                       toggleable: false,
                       horizontalAlignment: WrapAlignment.start,
@@ -377,12 +377,12 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                   Align(
                     alignment: AlignmentDirectional(-1.0, -0.05),
                     child: Padding(
-                      padding: EdgeInsets.all(10.0),
+                      padding: EdgeInsets.all(20.0),
                       child: Text(
                         '\n5. Being so restless that it\'s hard to sit still',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Poppins',
-                              fontSize: 16.0,
+                              fontFamily: 'Neuton',
+                              fontSize: 20.0,
                               letterSpacing: 0.0,
                             ),
                       ),
@@ -438,13 +438,13 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                       optionHeight: 40.0,
                       textStyle:
                           FlutterFlowTheme.of(context).bodyMedium.override(
-                                fontFamily: 'Poppins',
+                                fontFamily: 'PT Serif',
                                 color: Colors.black,
                                 letterSpacing: 0.0,
                               ),
                       buttonPosition: RadioButtonPosition.left,
                       direction: Axis.vertical,
-                      radioButtonColor: Colors.blue,
+                      radioButtonColor: Color(0xFF02302B),
                       inactiveRadioButtonColor: Color(0x8A000000),
                       toggleable: false,
                       horizontalAlignment: WrapAlignment.start,
@@ -454,12 +454,12 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                   Align(
                     alignment: AlignmentDirectional(-1.0, -0.05),
                     child: Padding(
-                      padding: EdgeInsets.all(10.0),
+                      padding: EdgeInsets.all(20.0),
                       child: Text(
                         '\n6. Becoming easily annoyed or irritable ',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Poppins',
-                              fontSize: 16.0,
+                              fontFamily: 'Neuton',
+                              fontSize: 20.0,
                               letterSpacing: 0.0,
                             ),
                       ),
@@ -515,13 +515,13 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                       optionHeight: 40.0,
                       textStyle:
                           FlutterFlowTheme.of(context).bodyMedium.override(
-                                fontFamily: 'Poppins',
+                                fontFamily: 'PT Serif',
                                 color: Colors.black,
                                 letterSpacing: 0.0,
                               ),
                       buttonPosition: RadioButtonPosition.left,
                       direction: Axis.vertical,
-                      radioButtonColor: Colors.blue,
+                      radioButtonColor: Color(0xFF02302B),
                       inactiveRadioButtonColor: Color(0x8A000000),
                       toggleable: false,
                       horizontalAlignment: WrapAlignment.start,
@@ -531,12 +531,12 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                   Align(
                     alignment: AlignmentDirectional(-1.0, 0.0),
                     child: Padding(
-                      padding: EdgeInsets.all(10.0),
+                      padding: EdgeInsets.all(20.0),
                       child: Text(
                         '\n7. Feeling afraid as if something awful might happen',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Poppins',
-                              fontSize: 16.0,
+                              fontFamily: 'Neuton',
+                              fontSize: 20.0,
                               letterSpacing: 0.0,
                             ),
                       ),
@@ -592,13 +592,13 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                       optionHeight: 40.0,
                       textStyle:
                           FlutterFlowTheme.of(context).bodyMedium.override(
-                                fontFamily: 'Poppins',
+                                fontFamily: 'PT Serif',
                                 color: Colors.black,
                                 letterSpacing: 0.0,
                               ),
                       buttonPosition: RadioButtonPosition.left,
                       direction: Axis.vertical,
-                      radioButtonColor: Colors.blue,
+                      radioButtonColor: Color(0xFF02302B),
                       inactiveRadioButtonColor: Color(0x8A000000),
                       toggleable: false,
                       horizontalAlignment: WrapAlignment.start,
@@ -608,12 +608,12 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                   Align(
                     alignment: AlignmentDirectional(-1.0, 0.0),
                     child: Padding(
-                      padding: EdgeInsets.all(10.0),
+                      padding: EdgeInsets.all(20.0),
                       child: Text(
-                        '\n8. If you checked off any problems, how difficult have these made it for your to do your work, take care of things at home, or get alone with other people?  If you didn\'t check any off, select \"Not difficult at all.\"',
+                        '\n8. If you checked off any problems, how difficult have these made it for your to do your work, take care of things at home, or get along with other people?  If you didn\'t check any off, select \"Not difficult at all.\"',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Poppins',
-                              fontSize: 16.0,
+                              fontFamily: 'Neuton',
+                              fontSize: 20.0,
                               letterSpacing: 0.0,
                             ),
                       ),
@@ -671,13 +671,13 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                       optionHeight: 40.0,
                       textStyle:
                           FlutterFlowTheme.of(context).bodyMedium.override(
-                                fontFamily: 'Poppins',
+                                fontFamily: 'PT Serif',
                                 color: Colors.black,
                                 letterSpacing: 0.0,
                               ),
                       buttonPosition: RadioButtonPosition.left,
                       direction: Axis.vertical,
-                      radioButtonColor: Colors.blue,
+                      radioButtonColor: Color(0xFF02302B),
                       inactiveRadioButtonColor: Color(0x8A000000),
                       toggleable: false,
                       horizontalAlignment: WrapAlignment.start,
@@ -687,25 +687,60 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                   Text(
                     '\n',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           letterSpacing: 0.0,
                         ),
                   ),
-                  Row(
-                    mainAxisSize: MainAxisSize.max,
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
-                      Align(
-                        alignment: AlignmentDirectional(0.0, 1.5),
-                        child: FFButtonWidget(
+                  Padding(
+                    padding: EdgeInsets.all(25.0),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.max,
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Align(
+                          alignment: AlignmentDirectional(0.0, 1.5),
+                          child: FFButtonWidget(
+                            onPressed: () async {
+                              await actions.clearItAllTime();
+
+                              FFAppState().update(() {});
+
+                              context.pushNamed(HomePageWidget.routeName);
+                            },
+                            text: 'Exit',
+                            options: FFButtonOptions(
+                              width: 150.0,
+                              height: 55.0,
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 0.0, 0.0, 0.0),
+                              iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 0.0, 0.0, 0.0),
+                              color: Color(0xFF02302B),
+                              textStyle: FlutterFlowTheme.of(context)
+                                  .titleLarge
+                                  .override(
+                                    fontFamily: 'PT Serif',
+                                    color: Colors.white,
+                                    fontSize: 20.0,
+                                    letterSpacing: 0.0,
+                                  ),
+                              borderSide: BorderSide(
+                                color: Colors.transparent,
+                                width: 1.0,
+                              ),
+                              borderRadius: BorderRadius.circular(8.0),
+                            ),
+                          ),
+                        ),
+                        FFButtonWidget(
                           onPressed: () async {
-                            await actions.clearItAllTime();
+                            await actions.addingTime();
 
-                            FFAppState().update(() {});
+                            safeSetState(() {});
 
-                            context.pushNamed(HomePageWidget.routeName);
+                            context.pushNamed(DepressionTestWidget.routeName);
                           },
-                          text: 'Exit',
+                          text: 'Submit',
                           options: FFButtonOptions(
                             width: 150.0,
                             height: 55.0,
@@ -713,12 +748,12 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                                 0.0, 0.0, 0.0, 0.0),
                             iconPadding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 0.0),
-                            color: Color(0xFF152514),
+                            color: Color(0xFF02302B),
                             textStyle: FlutterFlowTheme.of(context)
                                 .titleLarge
                                 .override(
-                                  fontFamily: 'Poppins',
-                                  color: Color(0xFFEEF2F3),
+                                  fontFamily: 'PT Serif',
+                                  color: Colors.white,
                                   fontSize: 20.0,
                                   letterSpacing: 0.0,
                                 ),
@@ -729,39 +764,8 @@ class _GADTestWidgetState extends State<GADTestWidget> {
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                         ),
-                      ),
-                      FFButtonWidget(
-                        onPressed: () async {
-                          await actions.addingTime();
-
-                          safeSetState(() {});
-
-                          context.pushNamed(DepressionTestWidget.routeName);
-                        },
-                        text: 'Submit',
-                        options: FFButtonOptions(
-                          width: 150.0,
-                          height: 55.0,
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 0.0, 0.0),
-                          iconPadding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 0.0, 0.0),
-                          color: Color(0xFF152514),
-                          textStyle:
-                              FlutterFlowTheme.of(context).titleLarge.override(
-                                    fontFamily: 'Poppins',
-                                    color: Color(0xFFEEF2F3),
-                                    fontSize: 20.0,
-                                    letterSpacing: 0.0,
-                                  ),
-                          borderSide: BorderSide(
-                            color: Colors.transparent,
-                            width: 1.0,
-                          ),
-                          borderRadius: BorderRadius.circular(8.0),
-                        ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ],
               ),

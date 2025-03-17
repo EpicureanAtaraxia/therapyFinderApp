@@ -59,12 +59,12 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-0.15, 0.1),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       'Over the last 2 weeks, how often have you been bothered by any of  the following problems?\n',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 18.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 24.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -73,12 +73,12 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, -0.05),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '1. Little interest or pleasure in doing things',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -149,13 +149,13 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -165,12 +165,12 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '2. Feeling down, depressed, or hopeless',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -241,13 +241,13 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -257,12 +257,12 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '3. Trouble falling or staying asleep, or sleeping too much',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -333,13 +333,13 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -349,12 +349,12 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '4. Feeling tired or having little energy',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -425,13 +425,13 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -441,12 +441,12 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '5. Poor appetite or overeating',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -517,13 +517,13 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -533,12 +533,12 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '6. Feeling bad about yourself or that you are a failure or have let yourself or your family down',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -609,13 +609,13 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -625,12 +625,12 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '7. Trouble concentrating on things, such as reading the newspaper or watching television',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -701,13 +701,13 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -717,12 +717,12 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '8. Moving or speaking so slowly that other people could have noticed. Or the opposite - being so figety or restless that you have been moving around a lot more than usual ',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -793,13 +793,13 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -809,12 +809,12 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '9. Thoughts that you would be better off dead, or of hurting yourself',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -885,13 +885,13 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -901,12 +901,12 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '10. If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people? If you didn\'t check any off, select \"Not difficult at all.\"',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -959,13 +959,13 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -975,79 +975,84 @@ class _DepressionTestWidgetState extends State<DepressionTestWidget> {
                 Text(
                   '\n',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Poppins',
+                        fontFamily: 'PT Serif',
                         letterSpacing: 0.0,
                       ),
                 ),
-                Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Align(
-                      alignment: AlignmentDirectional(1.0, 0.0),
-                      child: FFButtonWidget(
-                        onPressed: () async {
-                          context.pushNamed(GADTestWidget.routeName);
-                        },
-                        text: 'Back',
-                        options: FFButtonOptions(
-                          width: 150.0,
-                          height: 55.0,
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 0.0, 0.0),
-                          iconPadding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 0.0, 0.0),
-                          color: Color(0xFF152514),
-                          textStyle:
-                              FlutterFlowTheme.of(context).titleLarge.override(
-                                    fontFamily: 'Poppins',
-                                    color: Color(0xFFEEF2F3),
-                                    fontSize: 20.0,
-                                    letterSpacing: 0.0,
-                                  ),
-                          borderSide: BorderSide(
-                            color: Colors.transparent,
-                            width: 1.0,
+                Padding(
+                  padding: EdgeInsets.all(25.0),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Align(
+                        alignment: AlignmentDirectional(1.0, 0.0),
+                        child: FFButtonWidget(
+                          onPressed: () async {
+                            context.pushNamed(GADTestWidget.routeName);
+                          },
+                          text: 'Back',
+                          options: FFButtonOptions(
+                            width: 150.0,
+                            height: 55.0,
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 0.0),
+                            iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 0.0),
+                            color: Color(0xFF02302B),
+                            textStyle: FlutterFlowTheme.of(context)
+                                .titleLarge
+                                .override(
+                                  fontFamily: 'PT Serif',
+                                  color: Colors.white,
+                                  fontSize: 20.0,
+                                  letterSpacing: 0.0,
+                                ),
+                            borderSide: BorderSide(
+                              color: Colors.transparent,
+                              width: 1.0,
+                            ),
+                            borderRadius: BorderRadius.circular(8.0),
                           ),
-                          borderRadius: BorderRadius.circular(8.0),
                         ),
                       ),
-                    ),
-                    Align(
-                      alignment: AlignmentDirectional(-1.0, 0.0),
-                      child: FFButtonWidget(
-                        onPressed: () async {
-                          await actions.addingDepTime();
+                      Align(
+                        alignment: AlignmentDirectional(-1.0, 0.0),
+                        child: FFButtonWidget(
+                          onPressed: () async {
+                            await actions.addingDepTime();
 
-                          safeSetState(() {});
+                            safeSetState(() {});
 
-                          context.pushNamed(BPDTestWidget.routeName);
-                        },
-                        text: 'Submit',
-                        options: FFButtonOptions(
-                          width: 150.0,
-                          height: 55.0,
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 0.0, 0.0),
-                          iconPadding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 0.0, 0.0),
-                          color: Color(0xFF152514),
-                          textStyle:
-                              FlutterFlowTheme.of(context).titleLarge.override(
-                                    fontFamily: 'Poppins',
-                                    color: Color(0xFFEEF2F3),
-                                    fontSize: 20.0,
-                                    letterSpacing: 0.0,
-                                  ),
-                          borderSide: BorderSide(
-                            color: Colors.transparent,
-                            width: 1.0,
+                            context.pushNamed(BPDTestWidget.routeName);
+                          },
+                          text: 'Submit',
+                          options: FFButtonOptions(
+                            width: 150.0,
+                            height: 55.0,
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 0.0),
+                            iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 0.0),
+                            color: Color(0xFF02302B),
+                            textStyle: FlutterFlowTheme.of(context)
+                                .titleLarge
+                                .override(
+                                  fontFamily: 'PT Serif',
+                                  color: Colors.white,
+                                  fontSize: 20.0,
+                                  letterSpacing: 0.0,
+                                ),
+                            borderSide: BorderSide(
+                              color: Colors.transparent,
+                              width: 1.0,
+                            ),
+                            borderRadius: BorderRadius.circular(8.0),
                           ),
-                          borderRadius: BorderRadius.circular(8.0),
                         ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ],
             ),

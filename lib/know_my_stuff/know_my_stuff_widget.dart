@@ -62,7 +62,7 @@ class _KnowMyStuffWidgetState extends State<KnowMyStuffWidget> {
                   child: Text(
                     'I Struggle With:',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'Neuton',
                           fontSize: 24.0,
                           letterSpacing: 0.0,
                         ),
@@ -87,12 +87,12 @@ class _KnowMyStuffWidgetState extends State<KnowMyStuffWidget> {
                       FormFieldController<List<String>>(
                     [],
                   ),
-                  activeColor: Color(0xFF152514),
-                  checkColor: FlutterFlowTheme.of(context).primaryText,
+                  activeColor: Color(0xFF02302B),
+                  checkColor: FlutterFlowTheme.of(context).secondaryBackground,
                   checkboxBorderColor:
                       FlutterFlowTheme.of(context).secondaryText,
                   textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Poppins',
+                        fontFamily: 'PT Serif',
                         fontSize: 18.0,
                         letterSpacing: 0.0,
                       ),
@@ -103,77 +103,80 @@ class _KnowMyStuffWidgetState extends State<KnowMyStuffWidget> {
               Text(
                 '\n\n',
                 style: FlutterFlowTheme.of(context).bodyMedium.override(
-                      fontFamily: 'Poppins',
+                      fontFamily: 'PT Serif',
                       letterSpacing: 0.0,
                     ),
               ),
-              Row(
-                mainAxisSize: MainAxisSize.max,
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  FFButtonWidget(
-                    onPressed: () async {
-                      context.pushNamed(HomePageWidget.routeName);
-                    },
-                    text: 'Back',
-                    options: FFButtonOptions(
-                      width: 150.0,
-                      height: 55.0,
-                      padding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      iconPadding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      color: Color(0xFF152514),
-                      textStyle:
-                          FlutterFlowTheme.of(context).titleLarge.override(
-                                fontFamily: 'Poppins',
-                                color: Color(0xFFEEF2F3),
-                                fontSize: 20.0,
-                                letterSpacing: 0.0,
-                              ),
-                      borderSide: BorderSide(
-                        color: Colors.transparent,
-                        width: 1.0,
+              Padding(
+                padding: EdgeInsets.all(25.0),
+                child: Row(
+                  mainAxisSize: MainAxisSize.max,
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    FFButtonWidget(
+                      onPressed: () async {
+                        context.pushNamed(HomePageWidget.routeName);
+                      },
+                      text: 'Back',
+                      options: FFButtonOptions(
+                        width: 150.0,
+                        height: 55.0,
+                        padding:
+                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                        iconPadding:
+                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                        color: Color(0xFF02302B),
+                        textStyle:
+                            FlutterFlowTheme.of(context).titleLarge.override(
+                                  fontFamily: 'PT Serif',
+                                  color: Colors.white,
+                                  fontSize: 20.0,
+                                  letterSpacing: 0.0,
+                                ),
+                        borderSide: BorderSide(
+                          color: Colors.transparent,
+                          width: 1.0,
+                        ),
+                        borderRadius: BorderRadius.circular(8.0),
                       ),
-                      borderRadius: BorderRadius.circular(8.0),
                     ),
-                  ),
-                  FFButtonWidget(
-                    onPressed: () async {
-                      FFAppState().checkboxesSelected =
-                          _model.checkboxGroupValues!.toList().cast<String>();
-                      safeSetState(() {});
-                      await actions.checkBoxCheck();
-                      await actions.totalResults();
-                      await actions.recommendedTherapies();
+                    FFButtonWidget(
+                      onPressed: () async {
+                        FFAppState().checkboxesSelected =
+                            _model.checkboxGroupValues!.toList().cast<String>();
+                        safeSetState(() {});
+                        await actions.checkBoxCheck();
+                        await actions.totalResults();
+                        await actions.recommendedTherapies();
 
-                      context.pushNamed(ResultsWidget.routeName);
-                    },
-                    text: 'Submit',
-                    options: FFButtonOptions(
-                      width: 150.0,
-                      height: 55.0,
-                      padding:
-                          EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
-                      iconPadding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      color: Color(0xFF152514),
-                      textStyle:
-                          FlutterFlowTheme.of(context).titleSmall.override(
-                                fontFamily: 'Poppins',
-                                color: Colors.white,
-                                fontSize: 20.0,
-                                letterSpacing: 0.0,
-                              ),
-                      elevation: 3.0,
-                      borderSide: BorderSide(
-                        color: Colors.transparent,
-                        width: 1.0,
+                        context.pushNamed(ResultsWidget.routeName);
+                      },
+                      text: 'Submit',
+                      options: FFButtonOptions(
+                        width: 150.0,
+                        height: 55.0,
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                            24.0, 0.0, 24.0, 0.0),
+                        iconPadding:
+                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                        color: Color(0xFF02302B),
+                        textStyle:
+                            FlutterFlowTheme.of(context).titleSmall.override(
+                                  fontFamily: 'PT Serif',
+                                  color: Colors.white,
+                                  fontSize: 20.0,
+                                  letterSpacing: 0.0,
+                                ),
+                        elevation: 3.0,
+                        borderSide: BorderSide(
+                          color: Colors.transparent,
+                          width: 1.0,
+                        ),
+                        borderRadius: BorderRadius.circular(8.0),
                       ),
-                      borderRadius: BorderRadius.circular(8.0),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ],
           ),

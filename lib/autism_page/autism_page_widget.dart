@@ -57,12 +57,12 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Padding(
-                  padding: EdgeInsets.all(10.0),
+                  padding: EdgeInsets.all(20.0),
                   child: Text(
                     'Please respond with the answer that most accurately describes how each of the statements below applies to you. For the purposes of this test, \"When I Was Young\" refers to the age of 17 or younger. ',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
-                          fontSize: 18.0,
+                          fontFamily: 'Neuton',
+                          fontSize: 24.0,
                           letterSpacing: 0.0,
                         ),
                   ),
@@ -70,12 +70,12 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n1. It is difficult for me to understand how other people are feeling when we are talking.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -126,13 +126,13 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -142,12 +142,12 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n2. Some ordinary textures that do not bother others feel very offensive when they touch my skin.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -198,13 +198,13 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -214,12 +214,12 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n3. It is very difficult for me to work and function in groups',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -270,13 +270,13 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -286,12 +286,12 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '4. It is difficult to figure out what other people expect of me',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -342,13 +342,13 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -358,12 +358,12 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '5. I often don\'t know how to act in social situations.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -414,13 +414,13 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -430,12 +430,12 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n6. I can chat and make small talk with people',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -486,28 +486,31 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
                     verticalAlignment: WrapCrossAlignment.start,
                   ),
                 ),
-                Padding(
-                  padding: EdgeInsets.all(10.0),
-                  child: Text(
-                    '\n7. When I feel overwhelmed by my senses, I have to isolate myself to shut them down.',
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
-                          fontSize: 16.0,
-                          letterSpacing: 0.0,
-                        ),
+                Align(
+                  alignment: AlignmentDirectional(-1.0, -1.0),
+                  child: Padding(
+                    padding: EdgeInsets.all(20.0),
+                    child: Text(
+                      '\n7. When I feel overwhelmed by my senses, I have to isolate myself to shut them down.',
+                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
+                            letterSpacing: 0.0,
+                          ),
+                    ),
                   ),
                 ),
                 Align(
@@ -555,13 +558,13 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -571,12 +574,12 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n8. How to make friends and socialize is a mystery to me',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -627,13 +630,13 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -643,12 +646,12 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n9. When talking to someone, I have a hard time telling when it is my turn to talk or to listen.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -699,13 +702,13 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -715,12 +718,12 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n10. Sometimes I have to cover my ears to block out painful noises (like vacuum cleaners or people talking too much or too loudly).',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -771,13 +774,13 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -787,12 +790,12 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n11. It can be very hard to read someone\'s face, hand, and body movements when we are talking.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -843,13 +846,13 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -859,12 +862,12 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n12. I focus on details rather than the overall idea.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -915,13 +918,13 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -931,12 +934,12 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n13. I take things too literally, so I often miss what people are trying to say.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -987,13 +990,13 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -1003,12 +1006,12 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n14. I get extremely upset when the way I like to do things is suddenly changed.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -1059,13 +1062,13 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -1075,73 +1078,76 @@ class _AutismPageWidgetState extends State<AutismPageWidget> {
                 Text(
                   '\n',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Poppins',
+                        fontFamily: 'PT Serif',
                         letterSpacing: 0.0,
                       ),
                 ),
-                Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    FFButtonWidget(
-                      onPressed: () async {
-                        context.pushNamed(OCDTestWidget.routeName);
-                      },
-                      text: 'Back',
-                      options: FFButtonOptions(
-                        width: 150.0,
-                        height: 55.0,
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        iconPadding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        color: Color(0xFF152514),
-                        textStyle:
-                            FlutterFlowTheme.of(context).titleLarge.override(
-                                  fontFamily: 'Poppins',
-                                  color: Color(0xFFEEF2F3),
-                                  fontSize: 20.0,
-                                  letterSpacing: 0.0,
-                                ),
-                        borderSide: BorderSide(
-                          color: Colors.transparent,
-                          width: 1.0,
+                Padding(
+                  padding: EdgeInsets.all(25.0),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      FFButtonWidget(
+                        onPressed: () async {
+                          context.pushNamed(OCDTestWidget.routeName);
+                        },
+                        text: 'Back',
+                        options: FFButtonOptions(
+                          width: 150.0,
+                          height: 55.0,
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          iconPadding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          color: Color(0xFF02302B),
+                          textStyle:
+                              FlutterFlowTheme.of(context).titleLarge.override(
+                                    fontFamily: 'PT Serif',
+                                    color: Colors.white,
+                                    fontSize: 20.0,
+                                    letterSpacing: 0.0,
+                                  ),
+                          borderSide: BorderSide(
+                            color: Colors.transparent,
+                            width: 1.0,
+                          ),
+                          borderRadius: BorderRadius.circular(8.0),
                         ),
-                        borderRadius: BorderRadius.circular(8.0),
                       ),
-                    ),
-                    FFButtonWidget(
-                      onPressed: () async {
-                        await actions.addingAutismTime();
+                      FFButtonWidget(
+                        onPressed: () async {
+                          await actions.addingAutismTime();
 
-                        safeSetState(() {});
+                          safeSetState(() {});
 
-                        context.pushNamed(PTSDTestWidget.routeName);
-                      },
-                      text: 'Submit',
-                      options: FFButtonOptions(
-                        width: 150.0,
-                        height: 55.0,
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        iconPadding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        color: Color(0xFF152514),
-                        textStyle:
-                            FlutterFlowTheme.of(context).titleLarge.override(
-                                  fontFamily: 'Poppins',
-                                  color: Color(0xFFEEF2F3),
-                                  fontSize: 20.0,
-                                  letterSpacing: 0.0,
-                                ),
-                        borderSide: BorderSide(
-                          color: Colors.transparent,
-                          width: 1.0,
+                          context.pushNamed(PTSDTestWidget.routeName);
+                        },
+                        text: 'Submit',
+                        options: FFButtonOptions(
+                          width: 150.0,
+                          height: 55.0,
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          iconPadding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          color: Color(0xFF02302B),
+                          textStyle:
+                              FlutterFlowTheme.of(context).titleLarge.override(
+                                    fontFamily: 'PT Serif',
+                                    color: Colors.white,
+                                    fontSize: 20.0,
+                                    letterSpacing: 0.0,
+                                  ),
+                          borderSide: BorderSide(
+                            color: Colors.transparent,
+                            width: 1.0,
+                          ),
+                          borderRadius: BorderRadius.circular(8.0),
                         ),
-                        borderRadius: BorderRadius.circular(8.0),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ],
             ),

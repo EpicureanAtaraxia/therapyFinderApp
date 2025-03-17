@@ -59,12 +59,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
-                      'Before you begin this test, read the following definitions of \"obsessions\" and \"compulsions.\"\n\n   Obsessions are unwelcome or distressing ideas, thoughts, images, or impulses that repeatedly enter your mind. They may seem to occur against your will. They may be repugnant to you, are often senseless, and may not fit your actual personality at all (for example, the recurrent thought or impulse to do harm to your children, even though you never would). \n\n   Compulsions are behaviors or acts that you feel driven to perform, even though you may recognize them as senseless or excessive. At times, you may try to resist doing them, but this may prove difficult. You may experience anxiety that does not diminish until the behavior is completed. \n\nThe following statements refer to experiences that many people have in their everyday lives. Select the answer that best describes how much that experience has distressed or bothered you during the past month. ',
+                      'The following statements refer to experiences that many people have in their everyday lives. Select the answer that best describes how much that experience has distressed or bothered you during the past month. ',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 24.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -73,12 +73,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n1. I have saved up so many things that they get in the way. ',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -140,13 +140,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -156,12 +156,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '2. I check things more often than necessary. ',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -223,13 +223,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -239,12 +239,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '3. I get upset if objects are not arranged properly. ',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -306,13 +306,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -322,12 +322,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '4. I feel compelled to count while I am doing things. ',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -389,13 +389,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -405,12 +405,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '5. I find it difficult to touch an object when I know it has been touched by strangers or certain people. ',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -472,13 +472,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -488,12 +488,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '6. I find it difficult to control my own thoughts. ',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -555,13 +555,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -571,12 +571,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '7. I collect things I don\'t need.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -638,13 +638,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -654,12 +654,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '8. I repeatedly check doors, windows, drawers, etc.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -721,13 +721,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -737,12 +737,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '9. I get upset if others change the way I have arranged things.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -804,13 +804,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -820,12 +820,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '10. I feel I have to repeat certain numbers.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -887,13 +887,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -903,12 +903,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '11. I sometimes have to wash or clean myself simply because I feel contaminated.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -970,13 +970,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -986,12 +986,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '12. I am upset by unpleasant thoughts that come into my mind agaisnt my will. ',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -1053,13 +1053,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -1069,12 +1069,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '13. I avoid throwing things away because I am afraid I might need them later. ',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -1136,13 +1136,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -1152,12 +1152,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '14. I repeatedly check gas and water taps and light switches after turning them off. ',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -1219,13 +1219,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -1235,12 +1235,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '15. I need things to be arrranged in a particular way.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -1302,13 +1302,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -1318,12 +1318,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '16. I feel that there are good and bad numbers.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -1385,13 +1385,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -1401,12 +1401,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '17. I wash my hands more often and longer than necessary.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -1468,13 +1468,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -1484,12 +1484,12 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '18. I frequently get nasty thoughts and have difficulty in getting rid of them.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -1551,13 +1551,13 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -1567,52 +1567,21 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                 Text(
                   '\n',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Poppins',
+                        fontFamily: 'PT Serif',
                         letterSpacing: 0.0,
                       ),
                 ),
-                Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    FFButtonWidget(
-                      onPressed: () async {
-                        context.pushNamed(BPDTestWidget.routeName);
-                      },
-                      text: 'Back',
-                      options: FFButtonOptions(
-                        width: 150.0,
-                        height: 55.0,
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        iconPadding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        color: Color(0xFF152514),
-                        textStyle:
-                            FlutterFlowTheme.of(context).titleLarge.override(
-                                  fontFamily: 'Poppins',
-                                  color: Color(0xFFEEF2F3),
-                                  fontSize: 20.0,
-                                  letterSpacing: 0.0,
-                                ),
-                        borderSide: BorderSide(
-                          color: Colors.transparent,
-                          width: 1.0,
-                        ),
-                        borderRadius: BorderRadius.circular(8.0),
-                      ),
-                    ),
-                    Align(
-                      alignment: AlignmentDirectional(0.0, 0.0),
-                      child: FFButtonWidget(
+                Padding(
+                  padding: EdgeInsets.all(25.0),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      FFButtonWidget(
                         onPressed: () async {
-                          await actions.addingOCDTime();
-
-                          safeSetState(() {});
-
-                          context.pushNamed(AutismPageWidget.routeName);
+                          context.pushNamed(BPDTestWidget.routeName);
                         },
-                        text: 'Submit',
+                        text: 'Back',
                         options: FFButtonOptions(
                           width: 150.0,
                           height: 55.0,
@@ -1620,11 +1589,11 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                               0.0, 0.0, 0.0, 0.0),
                           iconPadding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 0.0, 0.0),
-                          color: Color(0xFF152514),
+                          color: Color(0xFF02302B),
                           textStyle:
                               FlutterFlowTheme.of(context).titleLarge.override(
-                                    fontFamily: 'Poppins',
-                                    color: Color(0xFFEEF2F3),
+                                    fontFamily: 'PT Serif',
+                                    color: Colors.white,
                                     fontSize: 20.0,
                                     letterSpacing: 0.0,
                                   ),
@@ -1635,8 +1604,43 @@ class _OCDTestWidgetState extends State<OCDTestWidget> {
                           borderRadius: BorderRadius.circular(8.0),
                         ),
                       ),
-                    ),
-                  ],
+                      Align(
+                        alignment: AlignmentDirectional(0.0, 0.0),
+                        child: FFButtonWidget(
+                          onPressed: () async {
+                            await actions.addingOCDTime();
+
+                            safeSetState(() {});
+
+                            context.pushNamed(AutismPageWidget.routeName);
+                          },
+                          text: 'Submit',
+                          options: FFButtonOptions(
+                            width: 150.0,
+                            height: 55.0,
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 0.0),
+                            iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 0.0),
+                            color: Color(0xFF02302B),
+                            textStyle: FlutterFlowTheme.of(context)
+                                .titleLarge
+                                .override(
+                                  fontFamily: 'PT Serif',
+                                  color: Colors.white,
+                                  fontSize: 20.0,
+                                  letterSpacing: 0.0,
+                                ),
+                            borderSide: BorderSide(
+                              color: Colors.transparent,
+                              width: 1.0,
+                            ),
+                            borderRadius: BorderRadius.circular(8.0),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ],
             ),

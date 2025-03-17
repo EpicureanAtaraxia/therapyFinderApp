@@ -62,12 +62,12 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       'Your Screening Results:',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 20.0,
+                      style: FlutterFlowTheme.of(context).bodyLarge.override(
+                            fontFamily: 'Neuton',
+                            fontSize: 22.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -76,11 +76,11 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       FFAppState().TotalResults,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
+                            fontFamily: 'PT Serif',
                             fontSize: 16.0,
                             letterSpacing: 0.0,
                           ),
@@ -90,12 +90,12 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       'Your Recommended Therapies:',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 20.0,
+                      style: FlutterFlowTheme.of(context).bodyLarge.override(
+                            fontFamily: 'Neuton',
+                            fontSize: 22.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -104,11 +104,11 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       FFAppState().RecommendedTherapies,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
+                            fontFamily: 'PT Serif',
                             fontSize: 16.0,
                             letterSpacing: 0.0,
                             fontWeight: FontWeight.normal,
@@ -119,11 +119,11 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       'If you want to see therapists near you, trained for your unique challenges, please enter your zip code below!',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
+                            fontFamily: 'PT Serif',
                             fontSize: 18.0,
                             letterSpacing: 0.0,
                           ),
@@ -133,11 +133,11 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\nIf you would like to take the screens again or put in your specific diagnoses, please hit the redo button below.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
+                            fontFamily: 'PT Serif',
                             fontSize: 18.0,
                             letterSpacing: 0.0,
                           ),
@@ -147,12 +147,12 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                 Text(
                   '\n\n',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Poppins',
+                        fontFamily: 'PT Serif',
                         letterSpacing: 0.0,
                       ),
                 ),
                 Padding(
-                  padding: EdgeInsets.all(10.0),
+                  padding: EdgeInsets.all(20.0),
                   child: TextFormField(
                     controller: _model.zipCodeTextController,
                     focusNode: _model.zipCodeFocusNode,
@@ -162,25 +162,25 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                       labelText: 'Zip Code:',
                       labelStyle:
                           FlutterFlowTheme.of(context).labelMedium.override(
-                                fontFamily: 'Poppins',
+                                fontFamily: 'PT Serif',
                                 fontSize: 18.0,
                                 letterSpacing: 0.0,
                               ),
                       hintStyle:
                           FlutterFlowTheme.of(context).labelMedium.override(
-                                fontFamily: 'Poppins',
+                                fontFamily: 'PT Serif',
                                 letterSpacing: 0.0,
                               ),
                       enabledBorder: UnderlineInputBorder(
                         borderSide: BorderSide(
-                          color: Color(0xFF152514),
+                          color: Color(0xFF02302B),
                           width: 2.0,
                         ),
                         borderRadius: BorderRadius.circular(8.0),
                       ),
                       focusedBorder: UnderlineInputBorder(
                         borderSide: BorderSide(
-                          color: Color(0xFF152514),
+                          color: Color(0xFF02302B),
                           width: 2.0,
                         ),
                         borderRadius: BorderRadius.circular(8.0),
@@ -200,8 +200,8 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                         borderRadius: BorderRadius.circular(8.0),
                       ),
                     ),
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                    style: FlutterFlowTheme.of(context).bodyLarge.override(
+                          fontFamily: 'PT Serif',
                           letterSpacing: 0.0,
                         ),
                     validator: _model.zipCodeTextControllerValidator
@@ -213,86 +213,91 @@ class _ResultsWidgetState extends State<ResultsWidget> {
                   child: Text(
                     '\n\n',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           letterSpacing: 0.0,
                         ),
                   ),
                 ),
-                Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Align(
-                      alignment: AlignmentDirectional(0.0, 1.5),
-                      child: FFButtonWidget(
-                        onPressed: () async {
-                          await actions.clearItAllTime();
+                Padding(
+                  padding: EdgeInsets.all(25.0),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Align(
+                        alignment: AlignmentDirectional(0.0, 1.5),
+                        child: FFButtonWidget(
+                          onPressed: () async {
+                            await actions.clearItAllTime();
 
-                          FFAppState().update(() {});
+                            FFAppState().update(() {});
 
-                          context.pushNamed(HomePageWidget.routeName);
-                        },
-                        text: 'Redo',
-                        options: FFButtonOptions(
-                          width: 150.0,
-                          height: 55.0,
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 0.0, 0.0),
-                          iconPadding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 0.0, 0.0),
-                          color: Color(0xFF152514),
-                          textStyle:
-                              FlutterFlowTheme.of(context).titleLarge.override(
-                                    fontFamily: 'Poppins',
-                                    color: Color(0xFFEEF2F3),
-                                    fontSize: 20.0,
-                                    letterSpacing: 0.0,
-                                  ),
-                          borderSide: BorderSide(
-                            color: Colors.transparent,
-                            width: 1.0,
+                            context.pushNamed(HomePageWidget.routeName);
+                          },
+                          text: 'Redo',
+                          options: FFButtonOptions(
+                            width: 150.0,
+                            height: 55.0,
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 0.0),
+                            iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 0.0),
+                            color: Color(0xFF02302B),
+                            textStyle: FlutterFlowTheme.of(context)
+                                .titleLarge
+                                .override(
+                                  fontFamily: 'PT Serif',
+                                  color: Colors.white,
+                                  fontSize: 20.0,
+                                  letterSpacing: 0.0,
+                                ),
+                            borderSide: BorderSide(
+                              color: Colors.transparent,
+                              width: 1.0,
+                            ),
+                            borderRadius: BorderRadius.circular(8.0),
                           ),
-                          borderRadius: BorderRadius.circular(8.0),
                         ),
                       ),
-                    ),
-                    Align(
-                      alignment: AlignmentDirectional(0.0, 1.5),
-                      child: FFButtonWidget(
-                        onPressed: () async {
-                          FFAppState().zipcode =
-                              _model.zipCodeTextController.text;
-                          safeSetState(() {});
-                          await actions.linkCreationTime();
-                          await launchURL(FFAppState().LinkString);
+                      Align(
+                        alignment: AlignmentDirectional(0.0, 1.5),
+                        child: FFButtonWidget(
+                          onPressed: () async {
+                            FFAppState().zipcode =
+                                _model.zipCodeTextController.text;
+                            safeSetState(() {});
+                            await actions.linkCreationTime();
+                            await launchURL(FFAppState().LinkString);
 
-                          safeSetState(() {});
-                        },
-                        text: 'Submit',
-                        options: FFButtonOptions(
-                          width: 150.0,
-                          height: 55.0,
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 0.0, 0.0),
-                          iconPadding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 0.0, 0.0),
-                          color: Color(0xFF152514),
-                          textStyle:
-                              FlutterFlowTheme.of(context).titleLarge.override(
-                                    fontFamily: 'Poppins',
-                                    color: Color(0xFFEEF2F3),
-                                    fontSize: 20.0,
-                                    letterSpacing: 0.0,
-                                  ),
-                          borderSide: BorderSide(
-                            color: Colors.transparent,
-                            width: 1.0,
+                            safeSetState(() {});
+                          },
+                          text: 'Submit',
+                          options: FFButtonOptions(
+                            width: 150.0,
+                            height: 55.0,
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 0.0),
+                            iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 0.0, 0.0, 0.0),
+                            color: Color(0xFF02302B),
+                            textStyle: FlutterFlowTheme.of(context)
+                                .titleLarge
+                                .override(
+                                  fontFamily: 'PT Serif',
+                                  color: Colors.white,
+                                  fontSize: 20.0,
+                                  letterSpacing: 0.0,
+                                ),
+                            borderSide: BorderSide(
+                              color: Colors.transparent,
+                              width: 1.0,
+                            ),
+                            borderRadius: BorderRadius.circular(8.0),
                           ),
-                          borderRadius: BorderRadius.circular(8.0),
                         ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ],
             ),

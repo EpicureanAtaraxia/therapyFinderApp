@@ -58,8 +58,8 @@ class _ShortStopWidgetState extends State<ShortStopWidget> {
                   child: Text(
                     'Before you  take these screens, we would just like to invite you to move through them quickly and go with your gut feeling on each question. Please try not to dwell on each question for too long. \n\nAlso, please remember that these screens\' results are not a diagnosis. These tests are screens designed to help you discover what potential mental health issues you may be more likely to be dealing with. After you complete the tests, the app will then show you therapists near you that may assist you with your mental health needs. This will help ensure you receive the treatment you deserve. \n\nWhen you are ready to take these screens, feel free to consent to your understanding of the above information, and click continue. ',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
-                          fontSize: 18.0,
+                          fontFamily: 'PT Serif',
+                          fontSize: 20.0,
                           letterSpacing: 0.0,
                         ),
                   ),
@@ -67,7 +67,7 @@ class _ShortStopWidgetState extends State<ShortStopWidget> {
                 Text(
                   '\n',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Poppins',
+                        fontFamily: 'PT Serif',
                         letterSpacing: 0.0,
                       ),
                 ),
@@ -85,11 +85,11 @@ class _ShortStopWidgetState extends State<ShortStopWidget> {
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                       iconPadding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      color: Color(0xFF152514),
+                      color: Color(0xFF02302B),
                       textStyle:
                           FlutterFlowTheme.of(context).titleLarge.override(
-                                fontFamily: 'Poppins',
-                                color: Color(0xFFEEF2F3),
+                                fontFamily: 'PT Serif',
+                                color: Colors.white,
                                 fontSize: 20.0,
                                 letterSpacing: 0.0,
                               ),

@@ -111,7 +111,7 @@ class LightModeTheme extends FlutterFlowTheme {
   late Color alternate = const Color(0xFFFF5963);
   late Color primaryText = const Color(0xFF101213);
   late Color secondaryText = const Color(0xFF57636C);
-  late Color primaryBackground = const Color(0xFFF1F4F8);
+  late Color primaryBackground = const Color(0xFFFFFFFF);
   late Color secondaryBackground = const Color(0xFFFFFFFF);
   late Color accent1 = const Color(0xFF616161);
   late Color accent2 = const Color(0xFF757575);
@@ -163,107 +163,107 @@ class ThemeTypography extends Typography {
 
   final FlutterFlowTheme theme;
 
-  String get displayLargeFamily => 'Poppins';
+  String get displayLargeFamily => 'PT Serif';
   TextStyle get displayLarge => GoogleFonts.getFont(
-        'Poppins',
+        'PT Serif',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 57.0,
       );
-  String get displayMediumFamily => 'Poppins';
+  String get displayMediumFamily => 'PT Serif';
   TextStyle get displayMedium => GoogleFonts.getFont(
-        'Poppins',
+        'PT Serif',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 45.0,
       );
-  String get displaySmallFamily => 'Poppins';
+  String get displaySmallFamily => 'PT Serif';
   TextStyle get displaySmall => GoogleFonts.getFont(
-        'Poppins',
+        'PT Serif',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 36.0,
       );
-  String get headlineLargeFamily => 'Poppins';
+  String get headlineLargeFamily => 'PT Serif';
   TextStyle get headlineLarge => GoogleFonts.getFont(
-        'Poppins',
+        'PT Serif',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 32.0,
       );
-  String get headlineMediumFamily => 'Poppins';
+  String get headlineMediumFamily => 'PT Serif';
   TextStyle get headlineMedium => GoogleFonts.getFont(
-        'Poppins',
+        'PT Serif',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 28.0,
       );
-  String get headlineSmallFamily => 'Poppins';
+  String get headlineSmallFamily => 'PT Serif';
   TextStyle get headlineSmall => GoogleFonts.getFont(
-        'Poppins',
+        'PT Serif',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 24.0,
       );
-  String get titleLargeFamily => 'Poppins';
+  String get titleLargeFamily => 'PT Serif';
   TextStyle get titleLarge => GoogleFonts.getFont(
-        'Poppins',
+        'PT Serif',
         color: theme.primaryText,
         fontWeight: FontWeight.w500,
         fontSize: 22.0,
       );
-  String get titleMediumFamily => 'Poppins';
+  String get titleMediumFamily => 'PT Serif';
   TextStyle get titleMedium => GoogleFonts.getFont(
-        'Poppins',
+        'PT Serif',
         color: theme.primaryText,
         fontWeight: FontWeight.w500,
         fontSize: 16.0,
       );
-  String get titleSmallFamily => 'Poppins';
+  String get titleSmallFamily => 'PT Serif';
   TextStyle get titleSmall => GoogleFonts.getFont(
-        'Poppins',
+        'PT Serif',
         color: theme.primaryText,
         fontWeight: FontWeight.w500,
         fontSize: 14.0,
       );
-  String get labelLargeFamily => 'Poppins';
+  String get labelLargeFamily => 'PT Serif';
   TextStyle get labelLarge => GoogleFonts.getFont(
-        'Poppins',
+        'PT Serif',
         color: theme.primaryText,
         fontWeight: FontWeight.w500,
         fontSize: 14.0,
       );
-  String get labelMediumFamily => 'Poppins';
+  String get labelMediumFamily => 'PT Serif';
   TextStyle get labelMedium => GoogleFonts.getFont(
-        'Poppins',
+        'PT Serif',
         color: theme.primaryText,
         fontWeight: FontWeight.w500,
         fontSize: 12.0,
       );
-  String get labelSmallFamily => 'Poppins';
+  String get labelSmallFamily => 'PT Serif';
   TextStyle get labelSmall => GoogleFonts.getFont(
-        'Poppins',
+        'PT Serif',
         color: theme.primaryText,
         fontWeight: FontWeight.w500,
         fontSize: 11.0,
       );
-  String get bodyLargeFamily => 'Poppins';
+  String get bodyLargeFamily => 'PT Serif';
   TextStyle get bodyLarge => GoogleFonts.getFont(
-        'Poppins',
+        'PT Serif',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 16.0,
       );
-  String get bodyMediumFamily => 'Poppins';
+  String get bodyMediumFamily => 'PT Serif';
   TextStyle get bodyMedium => GoogleFonts.getFont(
-        'Poppins',
+        'PT Serif',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 14.0,
       );
-  String get bodySmallFamily => 'Poppins';
+  String get bodySmallFamily => 'PT Serif';
   TextStyle get bodySmall => GoogleFonts.getFont(
-        'Poppins',
+        'PT Serif',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 12.0,

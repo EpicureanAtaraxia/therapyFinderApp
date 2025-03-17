@@ -57,12 +57,12 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Padding(
-                  padding: EdgeInsets.all(10.0),
+                  padding: EdgeInsets.all(20.0),
                   child: Text(
                     'Please answer the following questions to the best of your ability.',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
-                          fontSize: 18.0,
+                          fontFamily: 'Neuton',
+                          fontSize: 24.0,
                           letterSpacing: 0.0,
                         ),
                   ),
@@ -70,12 +70,12 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n1. Have any of your closest relationships been troubled by a lot of arguements or repeated breakups?',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -105,13 +105,13 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -121,12 +121,12 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n2. Have you ever deliberately hurt yourself physically (e.g. punched yourself, cut yourself, burned yourself) or have you ever made a suicide attempt?',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -156,13 +156,13 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -172,12 +172,12 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n3. Have you had at least two other problems with impulsivity (e.g. eating binges, spending sprees, drinking too much, verbal outbursts)?',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -207,13 +207,13 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -223,12 +223,12 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n4. Have you been extremely moody?',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -258,13 +258,13 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -274,12 +274,12 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n5. Have you felt very angry a lot of the time or do you often act in an angry or sarcastic manner? ',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -309,13 +309,13 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -325,12 +325,12 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n6. Have you often been distrustful of other people? ',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -360,13 +360,13 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -376,12 +376,12 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n7. Have you frequently felt unreal or as if things around you were unreal?',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -411,13 +411,13 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -427,12 +427,12 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n8. Have you chronically felt empty?',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -462,13 +462,13 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -478,12 +478,12 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n9. Have you often felt that you had no idea of who you are or that you have no identity?',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -513,13 +513,13 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -529,12 +529,12 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n10. Have you made desperate efforts to avoid feeling abandoned or being abandoned (e.g., repeatedly called someone to reassure yourself that he or she still cared, begged them not to leave you, clung to them physically)?',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -564,13 +564,13 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -580,73 +580,76 @@ class _BPDTestWidgetState extends State<BPDTestWidget> {
                 Text(
                   '\n',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Poppins',
+                        fontFamily: 'PT Serif',
                         letterSpacing: 0.0,
                       ),
                 ),
-                Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    FFButtonWidget(
-                      onPressed: () async {
-                        context.pushNamed(DepressionTestWidget.routeName);
-                      },
-                      text: 'Back',
-                      options: FFButtonOptions(
-                        width: 150.0,
-                        height: 55.0,
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        iconPadding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        color: Color(0xFF152514),
-                        textStyle:
-                            FlutterFlowTheme.of(context).titleLarge.override(
-                                  fontFamily: 'Poppins',
-                                  color: Color(0xFFEEF2F3),
-                                  fontSize: 20.0,
-                                  letterSpacing: 0.0,
-                                ),
-                        borderSide: BorderSide(
-                          color: Colors.transparent,
-                          width: 1.0,
+                Padding(
+                  padding: EdgeInsets.all(25.0),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      FFButtonWidget(
+                        onPressed: () async {
+                          context.pushNamed(DepressionTestWidget.routeName);
+                        },
+                        text: 'Back',
+                        options: FFButtonOptions(
+                          width: 150.0,
+                          height: 55.0,
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          iconPadding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          color: Color(0xFF02302B),
+                          textStyle:
+                              FlutterFlowTheme.of(context).titleLarge.override(
+                                    fontFamily: 'PT Serif',
+                                    color: Colors.white,
+                                    fontSize: 20.0,
+                                    letterSpacing: 0.0,
+                                  ),
+                          borderSide: BorderSide(
+                            color: Colors.transparent,
+                            width: 1.0,
+                          ),
+                          borderRadius: BorderRadius.circular(8.0),
                         ),
-                        borderRadius: BorderRadius.circular(8.0),
                       ),
-                    ),
-                    FFButtonWidget(
-                      onPressed: () async {
-                        await actions.addingBPDTime();
+                      FFButtonWidget(
+                        onPressed: () async {
+                          await actions.addingBPDTime();
 
-                        safeSetState(() {});
+                          safeSetState(() {});
 
-                        context.pushNamed(OCDTestWidget.routeName);
-                      },
-                      text: 'Submit',
-                      options: FFButtonOptions(
-                        width: 150.0,
-                        height: 55.0,
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        iconPadding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        color: Color(0xFF152514),
-                        textStyle:
-                            FlutterFlowTheme.of(context).titleLarge.override(
-                                  fontFamily: 'Poppins',
-                                  color: Color(0xFFEEF2F3),
-                                  fontSize: 20.0,
-                                  letterSpacing: 0.0,
-                                ),
-                        borderSide: BorderSide(
-                          color: Colors.transparent,
-                          width: 1.0,
+                          context.pushNamed(OCDTestWidget.routeName);
+                        },
+                        text: 'Submit',
+                        options: FFButtonOptions(
+                          width: 150.0,
+                          height: 55.0,
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          iconPadding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          color: Color(0xFF02302B),
+                          textStyle:
+                              FlutterFlowTheme.of(context).titleLarge.override(
+                                    fontFamily: 'PT Serif',
+                                    color: Colors.white,
+                                    fontSize: 20.0,
+                                    letterSpacing: 0.0,
+                                  ),
+                          borderSide: BorderSide(
+                            color: Colors.transparent,
+                            width: 1.0,
+                          ),
+                          borderRadius: BorderRadius.circular(8.0),
                         ),
-                        borderRadius: BorderRadius.circular(8.0),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ],
             ),

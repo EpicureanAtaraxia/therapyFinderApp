@@ -57,12 +57,12 @@ class _AddictionTestWidgetState extends State<AddictionTestWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Padding(
-                  padding: EdgeInsets.all(10.0),
+                  padding: EdgeInsets.all(20.0),
                   child: Text(
                     'When thinking about drug use, include illegal drug use and the use of prescription drugs other than as prescribed.\n\nPlease answer the following questions to the best of your ability.\n\nIn the past month',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
-                          fontSize: 18.0,
+                          fontFamily: 'Neuton',
+                          fontSize: 24.0,
                           letterSpacing: 0.0,
                         ),
                   ),
@@ -70,12 +70,12 @@ class _AddictionTestWidgetState extends State<AddictionTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n1. Have you ever felt the need to cut down on your drinking or drug use?',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -105,13 +105,13 @@ class _AddictionTestWidgetState extends State<AddictionTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -121,12 +121,12 @@ class _AddictionTestWidgetState extends State<AddictionTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n2. Have people annoyed you by crtitizing your drinking or drug use?',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -156,13 +156,13 @@ class _AddictionTestWidgetState extends State<AddictionTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -172,12 +172,12 @@ class _AddictionTestWidgetState extends State<AddictionTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n3. Have you ever felt guilty about drinking or drug use?',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -207,13 +207,13 @@ class _AddictionTestWidgetState extends State<AddictionTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -223,12 +223,12 @@ class _AddictionTestWidgetState extends State<AddictionTestWidget> {
                 Align(
                   alignment: AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
-                    padding: EdgeInsets.all(10.0),
+                    padding: EdgeInsets.all(20.0),
                     child: Text(
                       '\n4. Have you ever felt you needed a drink or used drugs first thing in the morning to steady your nerves or to get rid of a hangover.',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'Poppins',
-                            fontSize: 16.0,
+                            fontFamily: 'Neuton',
+                            fontSize: 20.0,
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -258,13 +258,13 @@ class _AddictionTestWidgetState extends State<AddictionTestWidget> {
                         FormFieldController<String>(null),
                     optionHeight: 40.0,
                     textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'PT Serif',
                           color: Colors.black,
                           letterSpacing: 0.0,
                         ),
                     buttonPosition: RadioButtonPosition.left,
                     direction: Axis.vertical,
-                    radioButtonColor: Colors.blue,
+                    radioButtonColor: Color(0xFF02302B),
                     inactiveRadioButtonColor: Color(0x8A000000),
                     toggleable: false,
                     horizontalAlignment: WrapAlignment.start,
@@ -274,75 +274,78 @@ class _AddictionTestWidgetState extends State<AddictionTestWidget> {
                 Text(
                   '\n',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Poppins',
+                        fontFamily: 'PT Serif',
                         letterSpacing: 0.0,
                       ),
                 ),
-                Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    FFButtonWidget(
-                      onPressed: () async {
-                        context.pushNamed(PTSDTestWidget.routeName);
-                      },
-                      text: 'Back',
-                      options: FFButtonOptions(
-                        width: 150.0,
-                        height: 55.0,
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        iconPadding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        color: Color(0xFF152514),
-                        textStyle:
-                            FlutterFlowTheme.of(context).titleLarge.override(
-                                  fontFamily: 'Poppins',
-                                  color: Color(0xFFEEF2F3),
-                                  fontSize: 20.0,
-                                  letterSpacing: 0.0,
-                                ),
-                        borderSide: BorderSide(
-                          color: Colors.transparent,
-                          width: 1.0,
+                Padding(
+                  padding: EdgeInsets.all(25.0),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      FFButtonWidget(
+                        onPressed: () async {
+                          context.pushNamed(PTSDTestWidget.routeName);
+                        },
+                        text: 'Back',
+                        options: FFButtonOptions(
+                          width: 150.0,
+                          height: 55.0,
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          iconPadding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          color: Color(0xFF02302B),
+                          textStyle:
+                              FlutterFlowTheme.of(context).titleLarge.override(
+                                    fontFamily: 'PT Serif',
+                                    color: Colors.white,
+                                    fontSize: 20.0,
+                                    letterSpacing: 0.0,
+                                  ),
+                          borderSide: BorderSide(
+                            color: Colors.transparent,
+                            width: 1.0,
+                          ),
+                          borderRadius: BorderRadius.circular(8.0),
                         ),
-                        borderRadius: BorderRadius.circular(8.0),
                       ),
-                    ),
-                    FFButtonWidget(
-                      onPressed: () async {
-                        await actions.addingAddictionTime();
+                      FFButtonWidget(
+                        onPressed: () async {
+                          await actions.addingAddictionTime();
 
-                        safeSetState(() {});
-                        await actions.totalResults();
-                        await actions.recommendedTherapies();
+                          safeSetState(() {});
+                          await actions.totalResults();
+                          await actions.recommendedTherapies();
 
-                        context.pushNamed(ResultsWidget.routeName);
-                      },
-                      text: 'Submit',
-                      options: FFButtonOptions(
-                        width: 150.0,
-                        height: 55.0,
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        iconPadding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        color: Color(0xFF152514),
-                        textStyle:
-                            FlutterFlowTheme.of(context).titleLarge.override(
-                                  fontFamily: 'Poppins',
-                                  color: Color(0xFFEEF2F3),
-                                  fontSize: 20.0,
-                                  letterSpacing: 0.0,
-                                ),
-                        borderSide: BorderSide(
-                          color: Colors.transparent,
-                          width: 1.0,
+                          context.pushNamed(ResultsWidget.routeName);
+                        },
+                        text: 'Submit',
+                        options: FFButtonOptions(
+                          width: 150.0,
+                          height: 55.0,
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          iconPadding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          color: Color(0xFF02302B),
+                          textStyle:
+                              FlutterFlowTheme.of(context).titleLarge.override(
+                                    fontFamily: 'PT Serif',
+                                    color: Colors.white,
+                                    fontSize: 20.0,
+                                    letterSpacing: 0.0,
+                                  ),
+                          borderSide: BorderSide(
+                            color: Colors.transparent,
+                            width: 1.0,
+                          ),
+                          borderRadius: BorderRadius.circular(8.0),
                         ),
-                        borderRadius: BorderRadius.circular(8.0),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ],
             ),
